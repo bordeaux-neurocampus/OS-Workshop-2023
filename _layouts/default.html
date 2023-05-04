@@ -28,19 +28,19 @@
   </header>
   <main id="content" class="main-content" role="main">
     <div id="tabs">
-      <a href="/">Home</a> |
-      <a href="/apply">Apply</a> |
-      <a href="/programme">Programme</a> |
-      <a href="/organizers">Organizers</a> |
-      <a href="/venue">Venue</a> |
-      <a href="/faq">FAQ</a> |
-      <a href="/archives">Archives</a>
+      <a href="{{ site.baseurl }}{% link index.md %}">Home</a> |
+      <a href="{{ site.baseurl }}{% link apply.md %}">Apply</a> |
+      <a href="{{ site.baseurl }}{% link programme.md %}">Programme</a> |
+      <a href="{{ site.baseurl }}{% link organizers.md %}">Organizers</a> |
+      <a href="{{ site.baseurl }}{% link venue.md %}">Venue</a> |
+      <a href="{{ site.baseurl }}{% link faq.md %}">FAQ</a> |
+      <a href="{{ site.baseurl }}{% link archives.md %}">Archives</a>
     </div>
     {{ content }}
     <footer class="site-footer">
       <div>
         <a href="https://www.bordeaux-neurocampus.fr/en/" target="_blank">
-          <img alt="Bordeaux Neurocampus logo" src="/assets/img/logo-Bordeaux-Neurocampus.jpg" width="200">
+          <img alt="Bordeaux Neurocampus logo" src="{{ site.baseurl }}/assets/img/logo-Bordeaux-Neurocampus.jpg" width="200">
         </a>
       </div>
       <div>&copy; 2023 Bordeaux Neurocampus</div>

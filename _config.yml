@@ -22,10 +22,10 @@ title: OS Workshop 2023 - Bordeaux Neurocampus
 email: rtea.ubordeaux@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the first edition of the Bordeaux Neurocampus Open Science Workshop, to be held in October 2023.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/OS-Worshop-2023" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: BordeauxTea
+github_username:  bordeaux-neurocampus
 # Build settings
 #theme: minima
 remote_theme: pages-themes/cayman@v0.2.0

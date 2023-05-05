@@ -13,5 +13,5 @@ permalink: /organizers/
 - [Ankur Gupta](https://www.linkedin.com/in/guptankur/){:target="_blank"} - IMN, Bordeaux
 - [Nathan Trouvain](https://github.com/nTrouvain){:target="_blank"} - Inria, Bordeaux
 - [Juan Garcia-Ruiz](https://www.linkedin.com/in/garciaruizjuan/){:target="_blank"} - [Neurocentre Magendie](https://neurocentre-magendie.fr/){:target="_blank"}, Bordeaux
-- [Yoni Couderc](https://www.linkedin.com/in/yoni-couderc-190218130/){:target="_blank"} - [Neurocentre Magendie](https://neurocentre-magendie.fr/){:target="_blank"}, Bordeaux
+- [Yoni Couderc](https://www.linkedin.com/in/yoni-couderc-190218130/){:target="_blank"}, Neurocentre Magendie, Bordeaux
 - [Deepshika Arasu](https://www.linkedin.com/in/deepshika-arasu){:target="_blank"} - Poietis, Bordeaux

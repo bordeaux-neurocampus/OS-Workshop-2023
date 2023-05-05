@@ -1,0 +1,67 @@
+imn: &aliasimn
+  name: IMN
+  link: https://www.imn-bordeaux.org/en/
+  loc: Bordeaux
+
+inria: &aliasinria
+  name: Inria
+  link: https://www.inria.fr/fr/centre-inria-universite-bordeaux
+  loc: Bordeaux
+
+incia: &aliasincia
+  name: INCIA
+  link: https://www.bordeaux-neurocampus.fr/qui-sommes-nous/les-6-unites-de-recherche/incia/
+  loc: Bordeaux
+
+magendie: &aliasmagendie
+  name: Neurocentre Magendie
+  link: https://neurocentre-magendie.fr/
+  loc: Bordeaux
+
+poietis: &aliaspoietis
+  name: Poietis
+  link: null
+  loc: Bordeaux
+
+team:
+  - name: Eduarda Centeno
+    link: https://www.linkedin.com/in/eduardagzc/
+    org:
+      - *aliasimn
+  - name: Fjola Hyseni
+    link: https://www.linkedin.com/in/fjolahyseni/
+    org:
+      - *aliasimn
+      - *aliasinria
+  - name: Nicolas P. Rougier
+    link: https://www.labri.fr/perso/nrougier/
+    org:
+      - *aliasinria
+  - name: Chloé Mercier 
+    link: https://www.linkedin.com/in/chl-mercier 
+    org:
+      - *aliasinria
+  - name: Mélodie Ambroset 
+    link: https://www.linkedin.com/in/m%C3%A9lodie-a-2299143a/
+    org:
+      - *aliasincia
+  - name: Ankur Gupta
+    link: https://www.linkedin.com/in/guptankur/
+    org:
+      - *aliasimn
+  - name: Nathan Trouvain 
+    link: https://github.com/nTrouvain
+    org:
+      - *aliasinria
+  - name: Juan Garcia-Ruiz 
+    link: https://www.linkedin.com/in/garciaruizjuan/  
+    org: 
+      - *aliasmagendie
+  - name: Yoni Couderc 
+    link: https://www.linkedin.com/in/yoni-couderc-190218130/ 
+    org:
+      - *aliasmagendie
+  - name: Deepshika Arasu 
+    link: https://www.linkedin.com/in/deepshika-arasu/
+    org:
+      - *aliaspoietis

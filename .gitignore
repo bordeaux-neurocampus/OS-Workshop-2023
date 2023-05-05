@@ -1,3 +1,4 @@
 _site
 .bundles_cache
+.tweet-cache
 Gemfile.lock

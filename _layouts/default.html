@@ -24,18 +24,12 @@
       }}</h2> -->
     {% if page.subtitle %}
     <h2 class="project-tagline">{{ page.subtitle }}</h2>
+    {% else %}
+    <h2 class="project-tagline">&nbsp;</h2>
     {% endif %}
   </header>
   <main id="content" class="main-content" role="main">
-    <div id="tabs">
-      <a href="{{ site.baseurl }}{% link index.md %}">Home</a> |
-      <a href="{{ site.baseurl }}{% link apply.md %}">Apply</a> |
-      <a href="{{ site.baseurl }}{% link programme.md %}">Programme</a> |
-      <a href="{{ site.baseurl }}{% link organizers.md %}">Organizers</a> |
-      <a href="{{ site.baseurl }}{% link venue.md %}">Venue</a>
-      <!-- <a href="{{ site.baseurl }}{% link faq.md %}">FAQ</a> | -->
-      <!-- <a href="{{ site.baseurl }}{% link archives.md %}">Archives</a> -->
-    </div>
+    {% include navigation.html %}
     {{ content }}
     <footer class="site-footer">
       <div>

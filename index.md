@@ -23,7 +23,7 @@ This edition will take place from October 16th to October 20th, 2023.
 
 <div class="jekyll-twitter-plugin" align="center">
 <!-- The line below is commented because the plugin is not supported by Github pages but can be used locally - refer to https://gist.github.com/abhisheknaik96/26ce79ac7a307eb836dcf02a52f87cf2 for more details -->
-    <a class="twitter-timeline" data-width="500" data-tweet-limit="5" 
+    <a class="twitter-timeline" data-width="500" data-tweet-limit="2" 
     href="https://twitter.com/BordeauxTea?ref_src=twsrc%5Etfw"
     target="_blank">
         <div>

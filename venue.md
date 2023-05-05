@@ -1,7 +1,7 @@
 ---
 layout: default
 subtitle: Venue
-permalink: /venue/
+permalink: /venue
 ---
 
 

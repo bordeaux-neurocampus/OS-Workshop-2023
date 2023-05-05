@@ -1,5 +1,5 @@
 ---
 layout: default
 subtitle: FAQ
-permalink: /faq/
+permalink: /faq
 ---

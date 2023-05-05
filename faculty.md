@@ -1,5 +1,5 @@
 ---
 layout: default
 subtitle: Faculty
-permalink: /faculty/
+permalink: /faculty
 ---

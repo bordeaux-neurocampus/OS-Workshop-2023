@@ -1,5 +1,5 @@
 ---
 layout: default
 subtitle: Archives
-permalink: /archives/
+permalink: /archives
 ---

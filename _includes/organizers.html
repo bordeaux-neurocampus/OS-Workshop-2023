@@ -1,0 +1,22 @@
+<div>
+    <ul>
+        {% for item in site.data.organizers.team %}
+        <li>
+            <a href="{{ item.link }}" target="_blank">{{ item.name }}</a> - 
+            {% for org in item.org %}
+                {% if org.link %}
+                <a href="{{ org.link }}" target="_blank">{{ org.name }}</a>
+                {% else %}
+                {{ org.name }}
+                {% endif %}
+                {% if forloop.rindex0 > 1 %}
+                ,
+                {% elsif forloop.rindex0 > 0 %}
+                and
+                {% endif %}
+            {% endfor %}
+            , Bordeaux
+        </li>
+        {% endfor %}
+    </ul>
+</div>

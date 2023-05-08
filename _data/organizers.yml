@@ -37,6 +37,10 @@ team:
     link: https://www.labri.fr/perso/nrougier/
     org:
       - *aliasinria
+  - name: Arthur Leblois
+    link: https://www.bordeaux-neurocampus.fr/en/staff/arthur-leblois/
+    org:
+      - *aliasimn
   - name: Chloé Mercier 
     link: https://www.linkedin.com/in/chl-mercier 
     org:

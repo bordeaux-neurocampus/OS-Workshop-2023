@@ -5,7 +5,7 @@ permalink: /venue
 ---
 
 
-[Bordeaux Neurocampus](https://www.bordeaux-neurocampus.fr/en/){:target="_blank"}{:rel="noopener noreferrer"} is a research cluster which aims to bring together all the disciplines of neuroscience. Its location - in the heart of the Carreire campus of the University of Bordeaux and a few steps from the Bordeaux University Hospital (Pellegrin site) - is ideal to develop new therapeutic and preventive approaches to diseases affecting the brain and to promote the transition between fundamental and clinical research.
+[Bordeaux Neurocampus](https://www.bordeaux-neurocampus.fr/en/){:target="_blank"}{:rel="noopener noreferrer"} is a research cluster which aims to bring together all the disciplines of neuroscience. Its location is in the heart of the Carreire campus of the University of Bordeaux and a few steps from the Bordeaux University Hospital (Pellegrin site).
 
 ![Centre Broca Nouvelle-Aquitaine](https://www.bordeaux-neurocampus.fr/wp-content/uploads/2018/03/NeurocampusFinal1600p.jpg)
 

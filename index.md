@@ -19,6 +19,16 @@ This edition will take place from October 16th to October 20th, 2023.
 - **Notification of acceptance:** September 2023
 - **Workshop:** October 16th-20th 2023
 
+## Confirmed speakers
+
+-  [Nicolas P. Rougier](https://www.labri.fr/perso/nrougier/#newsste){:target="_blank"}{:rel="noopener noreferrer"} 
+- [Sarah Cohen Boulakia](https://sarah.cohen-boulakia.eu/index.php){:target="_blank"}{:rel="noopener noreferrer"}
+- [Stephanie Forkel](https://www.google.com/search?client=safari&rls=en&q=stephanie+forkel&ie=UTF-8&oe=UTF-8){:target="_blank"}{:rel="noopener noreferrer"} 
+- [Raphaëlle Bats](https://www.linkedin.com/in/raphaellebats/){:target="_blank"}{:rel="noopener noreferrer"}
+- [Matthieu Wolff](https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/){:target="_blank"}{:rel="noopener noreferrer"}
+- [Ikram Chaibi Kaadoud](https://ikramchraibik.com){:target="_blank"}{:rel="noopener noreferrer"}
+
+
 ## News
 
 <div class="jekyll-twitter-plugin" align="center">

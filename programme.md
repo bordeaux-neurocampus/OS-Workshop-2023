@@ -1,7 +1,7 @@
 ---
 layout: default
-subtitle: Programme
-permalink: /programme
+subtitle: Program
+permalink: /program
 ---
 
  {% include schedule.html %}

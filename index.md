@@ -27,6 +27,7 @@ This edition will take place from October 16th to October 20th, 2023.
 - [Emma Gangley](https://www.linkedin.com/in/eganley/?originalSubdomain=uk){:target="_blank"}{:rel="noopener noreferrer"}
 - [Florent Lebon](https://www.florent-lebon.com/phd-neuroscience){:target="_blank"}{:rel="noopener noreferrer"}
 - [Stephanie Forkel](https://www.stephanieforkel.com){:target="_blank"}{:rel="noopener noreferrer"} 
+- [Andrew Davison](https://andrewdavison.info/){:target="_blank"}{:rel="noopener noreferrer"} 
 - [Raphaëlle Bats](https://www.linkedin.com/in/raphaellebats/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Matthieu Wolff](https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Ikram Chaibi Kaadoud](https://ikramchraibik.com){:target="_blank"}{:rel="noopener noreferrer"}

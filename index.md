@@ -15,9 +15,19 @@ This edition will take place from October 16th to October 20th, 2023.
 
 ## Important dates
 
-- **Call for application:** 1 July- August 2023
+- **Call for application:** 1 July- mid August 2023
 - **Notification of acceptance:** 10 September 2023
 - **Workshop:** October 16th-20th 2023
+
+## Our engagements 
+
+**Free registration**: we believe in making Open Science accessible to all. That is why registration, practical workshops, and coffee breaks are completely free of charge.
+
+**Comprehensive program**: Our workshop is designed to cater to both theoretical and practical needs. The program includes engaging theoretical sessions where you will gain a deep understanding of the principles and components of Open Science. Additionally, hands-on practical workshops will equip you with the skills and tools needed to implement Open Science practices seamlessly in your research.
+
+**Targeted audience**: This workshop is specifically tailored for PhD students, Post Docs, and Early Career Researchers. We understand the challenges one can face in the early stages of a career, and our workshop aims to provide you with the knowledge and resources to excel in the evolving research landscape.
+
+**Collaborative environment**: The Open Science Workshop at Bordeaux Neurocampus is not just about learning; it's also about building connections and fostering collaboration. Engage in group discussions, share your experiences, and connect with like-minded researchers from diverse disciplines. This workshop provides a unique opportunity to expand your network and form valuable connections for future collaborations.
 
 ## Confirmed speakers
 
@@ -31,7 +41,6 @@ This edition will take place from October 16th to October 20th, 2023.
 - [Raphaëlle Bats](https://www.linkedin.com/in/raphaellebats/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Matthieu Wolff](https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Ikram Chaibi Kaadoud](https://ikramchraibik.com){:target="_blank"}{:rel="noopener noreferrer"}
-
 
 ## News
 

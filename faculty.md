@@ -1,5 +1,5 @@
 ---
 layout: default
-subtitle: Faculty
+title: Faculty
 permalink: /faculty
 ---

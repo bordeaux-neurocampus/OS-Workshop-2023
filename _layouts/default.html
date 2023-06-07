@@ -17,13 +17,10 @@
 
 <body>
   <header class="page-header" role="banner">
-    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
-      }}</h2> -->
-    <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
-      }}</h2> -->
-    {% if page.subtitle %}
-    <h2 class="project-tagline">{{ page.subtitle }}</h2>
+    <img style="max-height: 200px" alt="OS workshop logo" src="{{ site.baseurl }}/assets/img/logo-OSW.png">
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    {% if page.title %}
+    <h2 class="project-tagline">{{ page.title }}</h2>
     {% else %}
     <h2 class="project-tagline">&nbsp;</h2>
     {% endif %}

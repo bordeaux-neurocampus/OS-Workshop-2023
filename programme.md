@@ -1,6 +1,6 @@
 ---
 layout: default
-subtitle: Program
+title: Program
 permalink: /program
 ---
 

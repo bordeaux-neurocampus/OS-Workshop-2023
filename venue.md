@@ -1,6 +1,6 @@
 ---
 layout: default
-subtitle: Venue
+title: Venue
 permalink: /venue
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-subtitle: Organizers
+title: Organizers
 permalink: /organizers
 ---
 

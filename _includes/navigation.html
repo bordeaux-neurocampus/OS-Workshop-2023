@@ -1,6 +1,6 @@
 <div id="tabs">
     {% for item in site.data.navigation %}
-    <a href="{{ site.baseurl }}/{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
+    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
         {{ item.name }}
     </a>
         {% unless forloop.last %}

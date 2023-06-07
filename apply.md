@@ -1,6 +1,6 @@
 ---
 layout: default
-subtitle: Apply
+title: Apply
 permalink: /apply
 ---
 

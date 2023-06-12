@@ -69,3 +69,7 @@ team:
     link: https://www.linkedin.com/in/deepshika-arasu/
     org:
       - *aliaspoietis
+  - name: Carmen Guerrero Marquez
+    link: https://www.linkedin.com/in/carmen-guerrero-m%C3%A1rquez-a41b00190/?originalSubdomain=es
+    org:
+      - *aliasimn

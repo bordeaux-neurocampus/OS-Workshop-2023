@@ -23,7 +23,7 @@ This edition will take place from October 16th to October 20th, 2023.
 
 **Free registration**: we believe in making Open Science accessible to all. That is why registration, practical workshops, and coffee breaks are completely free of charge.
 
-**The lectures are open to everyone. However, only 30 places are available to attend the workshops**
+*The lectures are open to everyone. However, only 30 places are available to attend the workshops.*
 
 **Comprehensive program**: Our workshop is designed to cater to both theoretical and practical needs. The program includes engaging theoretical sessions where you will gain a deep understanding of the principles and components of Open Science. Additionally, hands-on practical workshops will equip you with the skills and tools needed to implement Open Science practices seamlessly in your research.
 

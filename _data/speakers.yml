@@ -1,0 +1,48 @@
+- name: Nicolas P. Rougier
+  link: https://www.labri.fr/perso/nrougier/#newsste
+  org: Inria and IMN - Mnemosyne team
+  bio: "Nicolas P. Rougier is a senior researcher in computational 
+    and cognitive neuroscience, working at the intersection of life 
+    sciences and computer science. He is also actively involved in
+    the field of open and reproducible science: Among its various 
+    contributions, he co-founded the open-acess, peer-reviewed journal 
+    <a href=\"https://rescience.github.io/\" target=\"_blank\">
+    ReScience C</a>, promoting new and open-source implementations of
+    computational research results ensuring their reproducibility."
+- name: Sarah Cohen-Boulakia
+  link: https://sarah.cohen-boulakia.eu/index.php
+  org: Universtié Paris Saclay
+  bio: "Sarah Cohen-Boulakia is full professor at the 
+    Université Paris Saclay in computer science, 
+    specialized in biological and health data integration. 
+    She works on improving reproducibility and reusability of 
+    scientific protocols to analyze massive biomedical
+    datasets, and is involved in several FAIR workflow initiatives. 
+    Since 2020, she in charge of the Data Integration task
+    within the <a href=\"https://covid-nma.com/\" target=\"_blank\">
+    COVID-NMA</a> project, whose database is used by several 
+    institutions including the World Health Organisation (WHO)."
+- name: Arnaud Legrand
+  link: https://polaris.imag.fr/arnaud.legrand/
+  org:
+- name: Emma Gangley
+  link: https://www.linkedin.com/in/eganley/?originalSubdomain=uk
+  org:
+- name: Florent Lebon
+  link: https://www.florent-lebon.com/phd-neuroscience
+  org:
+- name: Stephanie Forkel
+  link: https://www.stephanieforkel.com
+  org:
+- name: Andrew Davison
+  link: https://andrewdavison.info/
+  org:
+- name: Raphaëlle Bats
+  link: https://www.linkedin.com/in/raphaellebats/
+  org:
+- name: Matthieu Wolff
+  link: https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/
+  org:
+- name: Ikram Chaibi Kaadoud
+  link: https://ikramchraibik.com
+  org:

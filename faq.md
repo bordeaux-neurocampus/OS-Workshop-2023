@@ -29,3 +29,7 @@ You would be a great fit for our workshop if you have the following qualities:
 ### Is there a code of conduct that I should know about?
 
 Absolutely, we require good conduct from all the participants to ensure the workshop goes smoothly. Please refer to [this document](/assets/docs/Conduct_code.pdf){:target="_blank"}{:rel="noopener noreferrer"} for more details.
+
+### I still have a few questions...
+
+Please contact osw-bordeaux-neurocampus(at)mailo.com if you have any further request.

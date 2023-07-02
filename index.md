@@ -15,7 +15,7 @@ This edition will take place from October 16th to October 20th, 2023.
 
 ## Important dates
 
-- **Call for application:** July 1st- mid August 2023
+- **Call for application:** July 2nd- mid August 2023
 - **Notification of acceptance:** September 10th 2023
 - **Workshop:** October 16th- 20th 2023
 
@@ -59,3 +59,7 @@ This edition will take place from October 16th to October 20th, 2023.
     </a>
     <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
+## Contact us
+
+Please contact osw-bordeaux-neurocampus(at)mailo.com if you have any question.

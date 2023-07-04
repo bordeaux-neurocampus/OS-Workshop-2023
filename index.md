@@ -36,13 +36,14 @@ This edition will take place from October 16th to October 20th, 2023.
 - [Nicolas P. Rougier](https://www.labri.fr/perso/nrougier/#newsste){:target="_blank"}{:rel="noopener noreferrer"} 
 - [Sarah Cohen Boulakia](https://sarah.cohen-boulakia.eu/index.php){:target="_blank"}{:rel="noopener noreferrer"}
 - [Arnaud Legrand](https://polaris.imag.fr/arnaud.legrand/){:target="_blank"}{:rel="noopener noreferrer"}
-- [Emma Gangley](https://www.linkedin.com/in/eganley/?originalSubdomain=uk){:target="_blank"}{:rel="noopener noreferrer"}
+- [Emma Ganley](https://www.linkedin.com/in/eganley/?originalSubdomain=uk){:target="_blank"}{:rel="noopener noreferrer"}
 - [Florent Lebon](https://www.florent-lebon.com/phd-neuroscience){:target="_blank"}{:rel="noopener noreferrer"}
 - [Stephanie Forkel](https://www.stephanieforkel.com){:target="_blank"}{:rel="noopener noreferrer"} 
 - [Andrew Davison](https://andrewdavison.info/){:target="_blank"}{:rel="noopener noreferrer"} 
 - [Raphaëlle Bats](https://www.linkedin.com/in/raphaellebats/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Matthieu Wolff](https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Ikram Chaibi Kaadoud](https://ikramchraibik.com){:target="_blank"}{:rel="noopener noreferrer"}
+- [Poulop](https://educationducrayon.com){:target="_blank"}{:rel="noopener noreferrer"}
 
 ## News
 

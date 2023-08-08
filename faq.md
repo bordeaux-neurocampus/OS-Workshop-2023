@@ -6,8 +6,8 @@ permalink: /faq
 
 ### Will you cover the costs for food and accommodation?
 
-Registration is free and food as well, but accommodation and travel are not covered for now.
-We are currently looking for travel grants and will send updates on this website accordingly.
+Registration is free and food as well, but accommodation and travel are not covered.
+However, we do offer a number of travel grants. If you are interested in applying for one, please indicate so in your application.
 
 ### Can the workshop be counted as doctoral training hours?
 

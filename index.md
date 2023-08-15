@@ -15,8 +15,8 @@ This edition will take place from October 16th to October 20th, 2023.
 
 ## Important dates
 
-- **Call for application:** July 2nd- mid August 2023
-- **Notification of acceptance:** September 10th 2023
+- **Call for application:** July 2nd- mid September 2023
+- **Notification of acceptance:** September 20th 2023
 - **Workshop:** October 16th- 20th 2023
 
 ## Our engagements 

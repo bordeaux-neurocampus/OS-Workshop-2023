@@ -52,3 +52,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Speaker collection
+# accessible through site.speakers
+collections:
+  speakers:
+    output: true

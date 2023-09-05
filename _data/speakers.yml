@@ -1,6 +1,6 @@
 - name: Nicolas P. Rougier
   link: https://www.labri.fr/perso/nrougier/#newsste
-  org: Inria (Mnemosyne) and IMN, University of Bordeaux
+  org: Inria, IMN, University of Bordeaux
   bio: "Nicolas P. Rougier is a senior researcher in computational 
     and cognitive neuroscience, working at the intersection of life 
     sciences and computer science. He is also actively involved in
@@ -9,6 +9,9 @@
     <a href=\"https://rescience.github.io/\" target=\"_blank\">
     ReScience&nbsp;C</a>, promoting new and open-source implementations of
     computational research results ensuring their reproducibility."
+  img: rougier.png
+  status: ok
+
 - name: Sarah Cohen-Boulakia
   link: https://sarah.cohen-boulakia.eu/index.php
   org: Paris-Saclay University
@@ -21,10 +24,21 @@
     within the <a href=\"https://covid-nma.com/\" target=\"_blank\">
     COVID-NMA</a> project, whose database is used by several 
     institutions including the World Health Organisation (WHO)."
+  img: cohen.png
+  status: ok
+
 - name: Arnaud Legrand
   link: https://polaris.imag.fr/arnaud.legrand/
-  org: WIP
-  bio: WIP
+  org: LIG
+  bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG,
+    Grenoble. His field of expertise encompasses scientific computing,
+    performance evaluation, optimization, statistics and design of
+    experiments. He is one of the authors of the \"Recherche
+    reproductible : principes méthodologiques pour une science
+    transparente\" MOOC."
+  img: legrand.png
+  status: ok
+
 - name: Emma Gangley
   link: https://www.linkedin.com/in/eganley/?originalSubdomain=uk
   org: protocols.io
@@ -45,6 +59,9 @@
     advanced to the position of Chief Editor. Emma is passionate about all things 
     related to open research, data, code, and method availability alongside the 
     articles, research reproducibility and integrity."
+  img: ganley.jpg
+  status: ok
+
 - name: Florent Lebon
   link: https://www.florent-lebon.com/phd-neuroscience
   org: INSERM 1093, University of Bourgogne
@@ -59,25 +76,57 @@
     Florent is currently part of the managing board of Peer Community In
     Neuroscience, a free recommendation process of scientific preprints
     based on peer reviews."
+  img: lebon.png
+  status: ok
+
 - name: Stephanie Forkel
   link: https://www.stephanieforkel.com
-  org: WIP
-  bio: WIP 
+  org: null
+  bio: null
+  img: null
+  status: "not confirmed"
+
 - name: Andrew Davison
-  link: https://andrewdavison.info/
-  org: WIP
-  bio: WIP
+  link: https://andrewdavison.info/ 
+  org: Paris-Saclay Institute of Neuroscience
+  bio: "Andrew Davison is a senior research scientist in the Paris-Saclay 
+    Institute of Neuroscience(CNRS/Université Paris-Saclay), where he leads
+    the Neuroinformatics group. His main research interests are in large-scale,
+    data-constrained, biologically-detailed modelling of neuronal networks,
+    including development of tools and standards to facilitate collaborative 
+    modelling, systematic model validation, reproducible research, 
+    neurophysiology data sharing, and development of models of the early visual
+    system in close collaboration with experimentalists."
+  img: davison.png
+  status: ok
+
 - name: Raphaëlle Bats
   link: https://www.linkedin.com/in/raphaellebats/
   org: WIP
-  bio: WI
+  bio: "Raphaëlle Bats is the co-head of the URFIST Bordeaux 
+    (Unité Régionale de Formation à l’Information Scientifique et Technique), 
+    University of Bordeaux, France. She defended her PhD Thesis in sociology 
+    in October 2019: “From Participation to Collective Mobilization: 
+    public libraries looking for their democratic vocation” 
+    (dir. Denis Merklen and Etienne Tassin). She still running different 
+    research projects in sociology and information science about participation, 
+    information and climate change, and specifically the project ECODOC 
+    that aims to design tools to engage a dialog between scientific information 
+    and lay information in territories facing climatic transition. Raphaëlle Bats 
+    joined the Citizen Science Working Group of LIBER in June 2021."
+  img: bats.jpg
+  status: ok
+
 - name: Mathieu Wolff
   link: https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/
   org: INCIA, University of Bordeaux
-  bio: "Mathieu is a team leader in the Decision and adaptation team in 
-    INCIA at the University of Bordeaux. His research focus is on thalamocortical 
-    circuits of adaptive decision-making. Parallel to that, Mathieu is part 
-    of the Reviewing Editors for Neuroscience in eLife journal."
+  bio: "Mathieu is the team leader of the Decision and Adaptation team 
+    at Bordeaux Neurocampus. His research focus is on the thalamocortical 
+    bases of adaptive decision-making. Mathieu has been an eLife Board 
+    Reviewing Editor for Neuroscience for 3 years."
+  img: wolff.png
+  status: ok
+
 - name: Ikram Chaibi Kaadoud
   link: https://ikramchraibik.com
   org: IMT Atlantique
@@ -89,6 +138,9 @@
     that aim to make science accessible to all, especially in highly technical 
     fields, so that everyone can be an actor in their own digital environment!\n
     Her goal: to create a more inclusive and ethical computer science field."
+  img: chaibi.png
+  status: ok
+  
 - name: Robert McIntosh
   link: https://www.ed.ac.uk/profile/robert-mcintosh
   org: University of Edinburgh
@@ -99,3 +151,63 @@
     the journal Cortex in 2013. He is currently Registered Reports, Exploratory 
     Reports and Transparency and Openness Promotion Editor at Cortex, and a recommender 
     at the [Peer Communities in Registered Reports](https://rr.peercommunityin.org/)."
+  img: mcintosh.png
+  status: ok
+
+- name: Volker Beckmann
+  link: https://apc.u-paris.fr/~beckmann/
+  org: French Ministry of Higher Education and Research
+  bio: "Since September 2020 I am responsible for the implementation of the 
+    European Open Science Cloud (EOSC) in France at the Ministry of Higher Education and Research, 
+    and since February 2022 I am co-chair of the EOSC Steering Board.
+    I finished my PhD in astrophysics at Hamburg University in 2001, 
+    and worked in astrophysics and space science in Italy, Switzerland 
+    and at NASA's Goddard space flight center and taught at the University 
+    of Maryland Baltimore County. In 2009 I became researcher at CNRS in France 
+    and from 2016 to 2020 I was scientific director for Computing and Data Science at 
+    the national institute for particle, astroparticle, and nuclear physics (CNRS-IN2P3). 
+    I was work package leader in the EOSCpilot and in the EOSC-Pillar project before joining 
+    the ministry."
+  img: beckmann.png
+  status: ok
+
+- name: Khadija Inam
+  link: https://fr.linkedin.com/in/khadijainam/fr
+  org: Brainstorm, PHARM Research
+  bio: "Khadija is a Clinical Research Associate at PHARM Research, 
+    a french CRO supporting clinical trials in France. She’s also the editor of @Sci_BrainStorm, 
+    the Neuroscience journal of the Université de Bordeaux. 
+    She aspires to play an active role to to promote scientific discovery 
+    behind therapeutic innovation."
+  img: inam.jpg
+  status: ok
+
+- name: Eduarda Centeno
+  link: https://fr.linkedin.com/in/eduardagzc
+  org: ReproducibiliTea, IMN, University of Bordeaux 
+  bio: "Eduarda is a Ph.D. candidate in Neuroscience at Neurocampus Bordeaux and a part-time 
+    Research Assistant at UMC Amsterdam (VUmc). Passionate about Open Science, she develops 
+    open-source Python pipelines for songbird research. At VUmc, Eduarda promotes and implements 
+    Open Science practices within her team and coordinates a working group for departmental transition. 
+    She hosts a ReproducibiliTea journal club in Bordeaux, is a member of the Open Science Community Amsterdam board
+    (OSCA), and recently became the Open Science Expert representing the Netherlands in the Knowledge Exchange network. 
+    [Workshop Organizer]"
+  img: centeno.jpg
+  status: ok
+
+- name: Fjola Hyseni
+  link:
+  org: ReproducibiliTea, Inria, IMN, University of Bordeaux
+  bio: "Fjola is a Medical Doctor and a Ph.D. candidate in Computational Neuroscience at the Institute 
+    of Neurodegenerative Diseases in Bordeaux. Her PhD work is focused on modeling temporal control of birdsong. 
+    Alongside her research work, she is passionate and devoted to  Open Science and hosts the ReproducibiliTea 
+    journal club in Bordeaux. [Workshop Organizer]"
+  img: hyseni.jpg
+  status: ok
+
+- name: Poulop
+  link: https://educationducrayon.com/
+  org: null
+  bio: null
+  img: poulop.png
+  status: ok

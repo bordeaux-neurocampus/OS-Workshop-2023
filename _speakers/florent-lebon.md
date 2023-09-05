@@ -1,4 +1,3 @@
-
 ---
 name: Florent Lebon
 link: https://www.florent-lebon.com/phd-neuroscience
@@ -6,7 +5,6 @@ org: INSERM 1093, University of Bourgogne
 img: lebon.png
 status: ok
 ---
-
 
 # Florent Lebon
 

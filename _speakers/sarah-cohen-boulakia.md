@@ -1,4 +1,3 @@
-
 ---
 name: Sarah Cohen-Boulakia
 link: https://sarah.cohen-boulakia.eu/index.php
@@ -6,7 +5,6 @@ org: Paris-Saclay University
 img: cohen.png
 status: ok
 ---
-
 
 # Sarah Cohen-Boulakia
 

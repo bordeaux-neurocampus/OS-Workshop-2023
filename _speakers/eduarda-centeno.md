@@ -1,4 +1,3 @@
-
 ---
 name: Eduarda Centeno
 link: https://fr.linkedin.com/in/eduardagzc
@@ -6,7 +5,6 @@ org: ReproducibiliTea, IMN, University of Bordeaux
 img: centeno.jpg
 status: ok
 ---
-
 
 # Eduarda Centeno
 

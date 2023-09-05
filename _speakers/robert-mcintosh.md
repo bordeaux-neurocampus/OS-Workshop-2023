@@ -1,4 +1,3 @@
-
 ---
 name: Robert McIntosh
 link: https://www.ed.ac.uk/profile/robert-mcintosh
@@ -6,7 +5,6 @@ org: University of Edinburgh
 img: mcintosh.png
 status: ok
 ---
-
 
 # Robert McIntosh
 

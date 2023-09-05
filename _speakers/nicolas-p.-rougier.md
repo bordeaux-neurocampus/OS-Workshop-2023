@@ -1,4 +1,3 @@
-
 ---
 name: Nicolas P. Rougier
 link: https://www.labri.fr/perso/nrougier/#newsste
@@ -6,7 +5,6 @@ org: Inria, IMN, University of Bordeaux
 img: rougier.png
 status: ok
 ---
-
 
 # Nicolas P. Rougier
 

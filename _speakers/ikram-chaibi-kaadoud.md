@@ -1,4 +1,3 @@
-
 ---
 name: Ikram Chaibi Kaadoud
 link: https://ikramchraibik.com
@@ -6,7 +5,6 @@ org: IMT Atlantique
 img: chaibi.png
 status: ok
 ---
-
 
 # Ikram Chaibi Kaadoud
 

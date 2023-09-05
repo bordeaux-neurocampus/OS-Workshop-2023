@@ -1,4 +1,3 @@
-
 ---
 name: Mathieu Wolff
 link: https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/
@@ -6,7 +5,6 @@ org: INCIA, University of Bordeaux
 img: wolff.png
 status: ok
 ---
-
 
 # Mathieu Wolff
 

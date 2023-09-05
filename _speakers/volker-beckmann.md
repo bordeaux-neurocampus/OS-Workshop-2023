@@ -1,4 +1,3 @@
-
 ---
 name: Volker Beckmann
 link: https://apc.u-paris.fr/~beckmann/
@@ -6,7 +5,6 @@ org: French Ministry of Higher Education and Research
 img: beckmann.png
 status: ok
 ---
-
 
 # Volker Beckmann
 

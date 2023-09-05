@@ -3,15 +3,13 @@ import shutil
 import pathlib
 
 
-_FRONTMATTER = """
----
+_FRONTMATTER = """---
 name: {}
 link: {}
 org: {}
 img: {}
 status: {}
 ---
-
 """
 
 

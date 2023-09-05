@@ -1,4 +1,3 @@
-
 ---
 name: Raphaëlle Bats
 link: https://www.linkedin.com/in/raphaellebats/
@@ -6,7 +5,6 @@ org: WIP
 img: bats.jpg
 status: ok
 ---
-
 
 # Raphaëlle Bats
 

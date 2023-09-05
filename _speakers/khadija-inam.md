@@ -1,4 +1,3 @@
-
 ---
 name: Khadija Inam
 link: https://fr.linkedin.com/in/khadijainam/fr
@@ -6,7 +5,6 @@ org: Brainstorm, PHARM Research
 img: inam.jpg
 status: ok
 ---
-
 
 # Khadija Inam
 

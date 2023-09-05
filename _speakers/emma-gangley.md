@@ -1,4 +1,3 @@
-
 ---
 name: Emma Gangley
 link: https://www.linkedin.com/in/eganley/?originalSubdomain=uk
@@ -6,7 +5,6 @@ org: protocols.io
 img: ganley.jpg
 status: ok
 ---
-
 
 # Emma Gangley
 

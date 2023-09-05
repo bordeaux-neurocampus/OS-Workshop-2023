@@ -1,4 +1,3 @@
-
 ---
 name: Fjola Hyseni
 link: None
@@ -6,7 +5,6 @@ org: ReproducibiliTea, Inria, IMN, University of Bordeaux
 img: hyseni.jpg
 status: ok
 ---
-
 
 # Fjola Hyseni
 

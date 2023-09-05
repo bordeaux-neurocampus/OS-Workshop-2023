@@ -1,4 +1,3 @@
-
 ---
 name: Arnaud Legrand
 link: https://polaris.imag.fr/arnaud.legrand/
@@ -6,7 +5,6 @@ org: LIG
 img: legrand.png
 status: ok
 ---
-
 
 # Arnaud Legrand
 

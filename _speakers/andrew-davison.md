@@ -1,4 +1,3 @@
-
 ---
 name: Andrew Davison
 link: https://andrewdavison.info/
@@ -6,7 +5,6 @@ org: Paris-Saclay Institute of Neuroscience
 img: davison.png
 status: ok
 ---
-
 
 # Andrew Davison
 

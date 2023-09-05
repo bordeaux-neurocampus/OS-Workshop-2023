@@ -7,7 +7,7 @@
     the field of open and reproducible science: Among its various 
     contributions, he co-founded the open-acess, peer-reviewed journal 
     <a href=\"https://rescience.github.io/\" target=\"_blank\">
-    ReScience C</a>, promoting new and open-source implementations of
+    ReScience&nbsp;C</a>, promoting new and open-source implementations of
     computational research results ensuring their reproducibility."
 - name: Sarah Cohen-Boulakia
   link: https://sarah.cohen-boulakia.eu/index.php
@@ -23,75 +23,79 @@
     institutions including the World Health Organisation (WHO)."
 - name: Arnaud Legrand
   link: https://polaris.imag.fr/arnaud.legrand/
-  org:
+  org: WIP
+  bio: WIP
 - name: Emma Gangley
   link: https://www.linkedin.com/in/eganley/?originalSubdomain=uk
   org: protocols.io
   bio: "Emma Ganley is the Director of Strategic Initiatives at protocols.io. 
-  Emma was formerly Chief Editor of PLOS Biology and worked in scientific 
-  publishing for 15 years. She has consulted for the preprint server medRxiv, 
-  and has been an Affiliate for bioRxiv for several years. Initially Emma 
-  followed a standard research career path, she obtained a PhD from the MRC-LMB 
-  in Cambridge in the UK, followed by a postdoc at UC Berkeley. She then moved 
-  into science publishing joining PLOS Biology in San Francisco in 2005. She 
-  next took the position of Executive Editor of the JCB at Rockefeller University 
-  Press, New York in 2007. During this time she gained an enthusiasm for open data, 
-  she worked with developers to launch the JCB DataViewer as a tool for making 
-  original image data available with published research articles. After relocating 
-  back to the UK and working at the University of Dundee first for the funder CR-UK, 
-  and then as a Project Manager for the Open Source, Open Microscopy Environment 
-  project, Emma eventually re-joined PLOS Biology from 2011 until 2019 where she 
-  advanced to the position of Chief Editor. Emma is passionate about all things 
-  related to open research, data, code, and method availability alongside the 
-  articles, research reproducibility and integrity."
+    Emma was formerly Chief Editor of PLOS Biology and worked in scientific 
+    publishing for 15 years. She has consulted for the preprint server medRxiv, 
+    and has been an Affiliate for bioRxiv for several years. Initially Emma 
+    followed a standard research career path, she obtained a PhD from the MRC-LMB 
+    in Cambridge in the UK, followed by a postdoc at UC Berkeley. She then moved 
+    into science publishing joining PLOS Biology in San Francisco in 2005. She 
+    next took the position of Executive Editor of the JCB at Rockefeller University 
+    Press, New York in 2007. During this time she gained an enthusiasm for open data, 
+    she worked with developers to launch the JCB DataViewer as a tool for making 
+    original image data available with published research articles. After relocating 
+    back to the UK and working at the University of Dundee first for the funder CR-UK, 
+    and then as a Project Manager for the Open Source, Open Microscopy Environment 
+    project, Emma eventually re-joined PLOS Biology from 2011 until 2019 where she 
+    advanced to the position of Chief Editor. Emma is passionate about all things 
+    related to open research, data, code, and method availability alongside the 
+    articles, research reproducibility and integrity."
 - name: Florent Lebon
   link: https://www.florent-lebon.com/phd-neuroscience
   org: INSERM 1093, University of Bourgogne
   bio: "Florent is an associate Professor at the INSERM laboratory Cognition, 
-  Action and Sensorimotor Plasticity in Dijon. His research projects encompass
-  behavioral psychology and cognitive neuroscience. The main goal is to
-  understand the link between neural processes underlying motion
-  (movement preparation, motor imagery, action language). Ongoing works
-  include the development of non-pharmacological interventions, such as
-  mental practice or non-invasive brain stimulation, for motor learning
-  and rehabilitation of pathologies implying the sensorimotor system.
-  Florent is currently part of the managing board of Peer Community In
-  Neuroscience, a free recommendation process of scientific preprints
-  based on peer reviews."
+    Action and Sensorimotor Plasticity in Dijon. His research projects encompass
+    behavioral psychology and cognitive neuroscience. The main goal is to
+    understand the link between neural processes underlying motion
+    (movement preparation, motor imagery, action language). Ongoing works
+    include the development of non-pharmacological interventions, such as
+    mental practice or non-invasive brain stimulation, for motor learning
+    and rehabilitation of pathologies implying the sensorimotor system.
+    Florent is currently part of the managing board of Peer Community In
+    Neuroscience, a free recommendation process of scientific preprints
+    based on peer reviews."
 - name: Stephanie Forkel
   link: https://www.stephanieforkel.com
-  org:
+  org: WIP
+  bio: WIP 
 - name: Andrew Davison
   link: https://andrewdavison.info/
-  org:
+  org: WIP
+  bio: WIP
 - name: Raphaëlle Bats
   link: https://www.linkedin.com/in/raphaellebats/
-  org:
+  org: WIP
+  bio: WI
 - name: Mathieu Wolff
   link: https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/
   org: INCIA, University of Bordeaux
   bio: "Mathieu is a team leader in the Decision and adaptation team in 
-  INCIA at the University of Bordeaux. His research focus is on thalamocortical 
-  circuits of adaptive decision-making. Parallel to that, Mathieu is part 
-  of the Reviewing Editors for Neuroscience in eLife journal."
+    INCIA at the University of Bordeaux. His research focus is on thalamocortical 
+    circuits of adaptive decision-making. Parallel to that, Mathieu is part 
+    of the Reviewing Editors for Neuroscience in eLife journal."
 - name: Ikram Chaibi Kaadoud
   link: https://ikramchraibik.com
-  org:
+  org: IMT Atlantique
   bio: "External Research Associate in Human-Centered Explainable AI, Ikram 
-  is interested in the world representation built by AI architectures, in 
-  the transparency of AI algorithms, and above all in interpretability and 
-  explainability. As passionate science facilitator, she is also one of the 
-  editors of the Blog Binaire attached to the news magazine 'LeMonde.fr' 
-  that aim to make science accessible to all, especially in highly technical 
-  fields, so that everyone can be an actor in their own digital environment!\n
-  Her goal: to create a more inclusive and ethical computer science field."
+    is interested in the world representation built by AI architectures, in 
+    the transparency of AI algorithms, and above all in interpretability and 
+    explainability. As passionate science facilitator, she is also one of the 
+    editors of the Blog Binaire attached to the news magazine 'LeMonde.fr' 
+    that aim to make science accessible to all, especially in highly technical 
+    fields, so that everyone can be an actor in their own digital environment!\n
+    Her goal: to create a more inclusive and ethical computer science field."
 - name: Robert McIntosh
   link: https://www.ed.ac.uk/profile/robert-mcintosh
   org: University of Edinburgh
   bio: "Rob McIntosh is Professor of Experimental Neuropsychology at the University 
-  of Edinburgh, and is the current Open Research Officer for the British 
-  Neuropsychological Society. He has been closely involved with editing and 
-  developing the Registered Reports since this article format was launched at 
-  the journal Cortex in 2013. He is currently Registered Reports, Exploratory 
-  Reports and Transparency and Openness Promotion Editor at Cortex, and a recommender 
-  at the [Peer Communities in Registered Reports](https://rr.peercommunityin.org/)."
+    of Edinburgh, and is the current Open Research Officer for the British 
+    Neuropsychological Society. He has been closely involved with editing and 
+    developing the Registered Reports since this article format was launched at 
+    the journal Cortex in 2013. He is currently Registered Reports, Exploratory 
+    Reports and Transparency and Openness Promotion Editor at Cortex, and a recommender 
+    at the [Peer Communities in Registered Reports](https://rr.peercommunityin.org/)."

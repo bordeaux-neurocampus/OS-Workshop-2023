@@ -18,8 +18,7 @@
 - name: Sarah Cohen-Boulakia
   link: https://sarah.cohen-boulakia.eu/
   org: Paris-Saclay University
-  bio: "Sarah Cohen-Boulakia is full professor in Computer Science at Paris-Saclay University, specialized in biological and health data integration. She works on improving reproducibility and reusability of scientific protocols to analyze massive biomedical
-datasets, and is involved in several FAIR workflow initiatives. Since 2020, she in charge of the Data Integration task within the <a href=\"https://covid-nma.com/\" target=\"_blank\"> COVID-NMA</a> project, whose database is used by several institutions including the World Health Organisation (WHO)."
+  bio: "Sarah Cohen-Boulakia is full professor in Computer Science at Paris-Saclay University, specialized in biological and health data integration. She works on improving reproducibility and reusability of scientific protocols to analyze massive biomedical datasets, and is involved in several FAIR workflow initiatives. Since 2020, she in charge of the Data Integration task within the <a href=\"https://covid-nma.com/\" target=\"_blank\"> COVID-NMA</a> project, whose database is used by several institutions including the World Health Organisation (WHO)."
 - name: Andrew Davison
   link: https://andrewdavison.info/
   org: Université Paris-Saclay, CNRS
@@ -55,8 +54,7 @@ datasets, and is involved in several FAIR workflow initiatives. Since 2020, she 
 - name: Arnaud Legrand
   link: https://polaris.imag.fr/arnaud.legrand/
   org: LIG Polaris, Grenoble, CNRS
-  bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing,
-performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
+  bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing, performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
 - name: Robert McIntosh
   link: https://www.ed.ac.uk/profile/robert-mcintosh/
   org: University of Edinburgh
@@ -68,8 +66,7 @@ performance evaluation, optimization, statistics and design of experiments. He i
 - name: Nicolas P. Rougier
   link: https://www.labri.fr/perso/nrougier/
   org: Inria (Mnemosyne) and IMN, University of Bordeaux
-  bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various 
-contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
+  bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
 - name: Stephen Whitmarsh
   link: todo
   org: todo

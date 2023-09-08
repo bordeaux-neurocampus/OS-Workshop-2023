@@ -1,0 +1,141 @@
+<!-- Credits to https://github.com/Prezj1/cards for his static cards -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        font-size: "Muli", sans-serif;  
+        margin: 0;
+        display: flex;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    
+    .card-container {
+        display: flex;
+        width: 40vw;
+        flex-wrap: wrap;
+        /* align-items: flex-start; */
+    }
+    
+    .card {
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20vh;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        flex: 0 50px;
+        margin: 10px;
+        position: relative;
+        transition: flex 0.7s ease-in;
+    }
+    
+    .card p {
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        margin: 0;
+        opacity: 0;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .card p a {
+        color: wheat !important;
+    }
+    
+    .card.active {
+        flex: 0 100px;
+    }
+    
+    .card.active p {
+        opacity: 1;
+    }
+    
+    .bio {
+        display: none;
+    }
+    
+    .bio.active {
+        display: block;
+        flex: 100px;
+    }
+    
+    @media(max-width: 780px) {
+        
+        .container {
+            flex-wrap: wrap;
+        }
+        .card-container {
+            width: 100%;
+        }
+        .card {
+            height: 100px;
+            flex: 0 40px;
+        }
+        .card.active {
+            flex: 0 80px;
+        }
+        .card p {
+            font-size: 15px;
+        }
+        .card:nth-of-type(6),.card:nth-of-type(7) {
+            display: none;
+        }
+    }
+
+</style>
+<div class="container">
+    <div class="card-container">
+        <div></div>
+        {% for speaker in site.data.speakers %}
+        {% unless speaker.pending %}
+        <div id="card:{{ speaker.name }}" class="card" style="background-image: url('{{ site.baseurl }}/assets/img/speakers/{{ speaker.pic }}')">
+            <p>{{ speaker.name }}</p>
+        </div>
+        {% endunless %}
+        {% endfor %}
+    </div> 
+    {% for speaker in site.data.speakers %}
+    <div id="bio:{{ speaker.name }}" class="bio">
+        <h3><a href="{{ speaker.link }}" target="_blank" rel="noopener noreferrer"><b>{{ speaker.name }}</b></a>, <em>{{ speaker.org }}</em></h3>
+        <p>{{ speaker.bio }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    const cards = document.querySelectorAll('.card')
+    const bios = document.querySelectorAll('.bio')
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            removeActiveClasses()
+            card.classList.add('active')
+            changeActiveBio(card.getAttribute("id"))
+        })
+    })
+    
+    function removeActiveClasses() {
+        cards.forEach(card => {
+            card.classList.remove('active')
+        })
+    }
+    
+    function changeActiveBio(card_id) {
+        bios.forEach(bio => {
+            bio.classList.remove('active')
+            var bio_id = bio.getAttribute("id")
+            if (bio_id.split(":")[1] == card_id.split(":")[1]) {
+                console.log(bio_id)
+                bio.classList.add('active')
+            }
+        })
+    }
+</script>

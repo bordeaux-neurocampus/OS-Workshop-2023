@@ -1,0 +1,72 @@
+
+T1: 
+  title: "Opening Talk"
+T2: 
+  title: "Open Science: the Big Picture"
+  speakers: cohen
+T3: 
+  title: "Reproducibility in France"
+  speakers: 
+    - cohen
+    - rougier
+T4: 
+  title: "Pre-registrations & Registered Reports"
+  speakers: mcintosh
+T5: 
+  title: "Data Management Plans (DMPs)"
+  speakers: zehl
+T6: 
+  title: "Citizen Science"
+  speakers: bats
+T7: 
+  title: "Introduction to research protocols"
+  speakers: ganley
+T8: 
+  title: "Good practices in the lab: Reproducible code, documentation & version control"
+  speakers: rougier
+T9: 
+  title: "Good practices in the lab: Research documentation and electronic notebooks"
+  speakers: legrand
+T10: 
+  title: "Publishing Open-Access and Open peer review"
+  speakers: lebon
+T11: 
+  title: "Open Data"
+  speakers: davison
+T12: 
+  title: "Science outreach/popularization"
+  speakers: forkel
+WS1: 
+  title: "WS1: Writing your Pre-registration"
+  speakers: mcintosh
+WS2: 
+  title: "WS2: DMPs"
+  speakers: zehl
+WS3: 
+  title: "WS3: Version control in the lab"
+  speakers: rougier
+WS4: 
+  title: "WS4: Writing and sharing your protocols with Protocols.io"
+  speakers: ganley
+WS5: 
+  title: "WS5: Open Data"
+  speakers: davison
+WS6: 
+  title: "WS6: Science outreach/popularization"
+  speakers: poulop
+P1: 
+  title: "Panel 1: Other ways to get involved with OS"
+  speakers: 
+    - chraibi
+    - forkel
+    - leblois
+    - whitmarsh
+P2: 
+  title: "Panel 2: Stakeholders and Research Assessment"
+  speakers: 
+    - beyeler
+    - centeno
+    - lebon
+    - rougier
+    - whitmarsh
+    - wolff

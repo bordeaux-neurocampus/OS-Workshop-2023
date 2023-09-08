@@ -1,0 +1,11 @@
+<div>
+    <ul>
+        {% for speaker in site.data.speakers %}
+        {% unless speaker.pending %}
+        <li>
+            <a href="{{ speaker.link }}" target="_blank" rel="noopener noreferrer">{{ speaker.name }}</a> - {{ speaker.org }}
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+</div>

@@ -1,81 +1,125 @@
-- name: Raphaëlle Bats
+- id: bats
+  name: Raphaëlle Bats
+  pic: bats.jpg
   link: https://www.linkedin.com/in/raphaellebats/
   org: University of Bordeaux
   bio: "Raphaëlle Bats is the co-head of the URFIST Bordeaux (Unité Régionale de Formation à l'Information Scientifique et Technique), University of Bordeaux, France. She defended her PhD Thesis in sociology in October 2019: \"From Participation to Collective Mobilization: public libraries looking for their democratic vocation\" (dir. Denis Merklen and Etienne Tassin). She still running different research projects in sociology and information science about participation, information and climate change, and specifically the project ECODOC that aims to design tools to engage a dialog between scientific information and lay information in territories facing climatic transition. Raphaëlle Bats joined the Citizen Science Working Group of LIBER in June 2021."
-- name: Anna Beyeler
+- id: beyeler
+  name: Anna Beyeler
+  pic: beyeler.jpg
   link: https://www.bordeaux-neurocampus.fr/en/staff/anna-beyeler/
   org: University of Bordeaux
   bio: "Anna Beyeler received her undergraduate degree in Biochemistry from the University of Bordeaux in 2006. Her expertise in electrophysiology roots in her doctoral training in the same university, after what she joined the Picower Institute for Learning and Memory (MIT) as post-doctoral fellow. There, she identified circuit and synaptic mechanisms of emotions in the amygdala, underlying memory formation and retrieval of positive and negative associations. After five years abroad, she started her lab in the Neurocentre Magendie within the vibrant Neuroscientific community of Bordeaux. Since then her team is studying the contribution of circuits of the insular cortex to emotional valence and anxiety, as well as the alteration of those circuits in pre-clinical models of psychiatric disorders. They use a wide panel of techniques including fiber photometry recordings, in vivo and ex vivo electrophysiology, opto- and chemo-genetics, along with cutting-edge whole-brain circuit mapping. In 2020, Dr. Beyeler has been tenured as a principal investigator at the French Institute of Health (INSERM). She also received the Avenir fund of INSERM, and grants from ANR, FRM and cercle FSER. She is also an associate member of the American College of Neuropsychopharmacology (ACNP), a member of the FENS-Kavli Network, and an ambassador of the ALBA network for diversity in Neuroscience."
-- name: Eduarda Centeno
+- id: centeno
+  name: Eduarda Centeno
+  pic: centeno.jpg
   link: https://www.linkedin.com/in/eduardagzc/
   org: University of Bordeaux
   bio: "Eduarda is a Ph.D. candidate in Neuroscience at Neurocampus Bordeaux and a part-time Research Assistant at UMC Amsterdam (VUmc). Passionate about Open Science, she develops open-source Python pipelines for songbird research. At VUmc, Eduarda promotes and implements Open Science practices within her team and coordinates a working group for departmental transition. She hosts a ReproducibiliTea journal club in Bordeaux, is a member of the Open Science Community Amsterdam board (OSCA), and recently became the Open Science Expert representing the Netherlands in the Knowledge Exchange network. [Workshop Organizer]"
-- name: Ikram Chraibi Kaadoud
+- id: chraibi
+  name: Ikram Chraibi Kaadoud
+  pic: chraibi.png
   link: https://ikramchraibik.com/
   org: IMT Atlantique, UMR CNRS 6285
   bio: "External Research Associate in Human-Centered Explainable AI, Ikram is interested in the world representation built by AI architectures, in the transparency of AI algorithms, and above all in interpretability and explainability. As passionate science facilitator, she is also one of the editors of the Blog Binaire attached to the news magazine \"LeMonde.fr\" that aim to make science accessible to all, especially in highly technical fields, so that everyone can be an actor in their own digital environment!\n 
   Her goal: to create a more inclusive and ethical computer science field."
-- name: Sarah Cohen-Boulakia
+- id: cohen
+  name: Sarah Cohen-Boulakia
+  pic: cohen.jpg
   link: https://sarah.cohen-boulakia.eu/
   org: Paris-Saclay University
   bio: "Sarah Cohen-Boulakia is full professor in Computer Science at Paris-Saclay University, specialized in biological and health data integration. She works on improving reproducibility and reusability of scientific protocols to analyze massive biomedical datasets, and is involved in several FAIR workflow initiatives. Since 2020, she in charge of the Data Integration task within the <a href=\"https://covid-nma.com/\" target=\"_blank\"> COVID-NMA</a> project, whose database is used by several institutions including the World Health Organisation (WHO)."
-- name: Andrew Davison
+- id: davison
+  name: Andrew Davison
+  pic: davison.png
   link: https://andrewdavison.info/
   org: Université Paris-Saclay, CNRS
   bio: "Andrew Davison is a senior research scientist in the Paris-Saclay Institute of Neuroscience (CNRS/Université Paris-Saclay), where he leads the Neuroinformatics group. His main research interests are in large-scale, data-constrained, biologically-detailed modelling of neuronal networks, including development of tools and standards to facilitate collaborative modelling, systematic model validation, reproducible research, neurophysiology data sharing, and development of models of the early visual system in close collaboration with experimentalists."
-- name: Yves Ducq
+- id: ducq
+  name: Yves Ducq
+  pending: true
+  pic: ducq.jpg
   link: https://www.linkedin.com/in/yves-ducq-1492b918/
   org: University of Bordeaux
   bio: ""
-- name: Stephanie Forkel
+- id: forkel
+  name: Stephanie Forkel
+  pending: true
+  pic: forkel.jpg
   link: https://www.stephanieforkel.com/
   org: Donders Institute, Radboud University
   bio: ""
-- name: Emma Gangley
+- id: ganley
+  name: Emma Ganley
+  pic: ganley.jpg
   link: https://www.linkedin.com/in/eganley/
   org: protocols.io
   bio: "Dr. Emma Ganley is Director of Strategic Initiatives at protocols.io. Formerly, Emma worked in scientific publishing for 15 years, prior to protocols.io she was Chief Editor of PLOS Biology. Initially following a standard research career path, Emma obtained a PhD from the MRC-LMB in Cambridge in the UK, followed by a postdoc at UC Berkeley. She then moved into science publishing joining PLOS Biology in San Francisco in 2005 followed by a position as Executive Editor of the JCB at Rockefeller University in New York in 2007. After relocating back to the UK and working at the University of Dundee with the funder CR-UK and on the Open Microscopy Environment project, Emma re-joined PLOS Biology from 2011 until 2019. Since then, she has consulted for the preprint server medRxiv, has been an Affiliate for bioRxiv for several years and subsequently joined protocols.io at the start of 2020. Emma is passionate about all things related to open research, open data, open methods, reproducibility, and scientific integrity."
-- name: Fjola Hyseni
+- id: hyseni
+  name: Fjola Hyseni
+  pic: hyseni.jpg
   link: https://www.linkedin.com/in/fjolahyseni/
   org: University of Bordeaux
   bio: "Fjola is a Medical Doctor and a Ph.D. candidate in Computational Neuroscience at the Institute of Neurodegenerative Diseases in Bordeaux. Her PhD work is focused on modeling temporal control of birdsong. Alongside her research work, she is passionate and devoted to  Open Science and hosts the ReproducibiliTea journal club in Bordeaux. [Workshop Organizer]"
-- name: Khadija Inam
+- id: inam
+  name: Khadija Inam
+  pic: inam.jpg
   link: https://www.linkedin.com/in/khadijainam/
   org: PHARM Research
   bio: "Khadija is a Clinical Research Associate at PHARM Research, a french CRO supporting clinical trials in France. She's also the editor of Sci_BrainStorm, the Neuroscience journal of the Université de Bordeaux. She aspires to play an active role to to promote scientific discovery behind therapeutic innovation."
-- name: Arthur Leblois
+- id: leblois
+  name: Arthur Leblois
+  pic: leblois.jpg
   link: https://www.bordeaux-neurocampus.fr/en/staff/arthur-leblois/
   org: University of Bordeaux
   bio: ""
-- name: Florent Lebon
+- id: lebon
+  name: Florent Lebon
+  pic: lebon.png
   link: https://www.florent-lebon.com/phd-neuroscience/
   org: INSERM 1093, University of Bourgogne
   bio: "Florent is an associate Professor at the INSERM laboratory Cognition, Action and Sensorimotor Plasticity in Dijon. His research projects encompass behavioral psychology and cognitive neuroscience. The main goal is to understand the link between neural processes underlying motion (movement preparation, motor imagery, action language). Ongoing works include the development of non-pharmacological interventions, such as mental practice or non-invasive brain stimulation, for motor learning and rehabilitation of pathologies implying the sensorimotor system. Florent is currently part of the managing board of Peer Community In Neuroscience, a free recommendation process of scientific preprints based on peer reviews."
-- name: Arnaud Legrand
+- id: legrand
+  name: Arnaud Legrand
+  pic: legrand.png
   link: https://polaris.imag.fr/arnaud.legrand/
   org: LIG Polaris, Grenoble, CNRS
   bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing, performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
-- name: Robert McIntosh
+- id: mcintosh
+  name: Robert McIntosh
+  pic: mcintosh.png
   link: https://www.ed.ac.uk/profile/robert-mcintosh/
   org: University of Edinburgh
   bio: "Rob McIntosh is Professor of Experimental Neuropsychology at the University of Edinburgh, and is the current Open Research Officer for the British Neuropsychological Society. He has been closely involved with editing and developing the Registered Reports since this article format was launched at the journal Cortex in 2013. He is currently Registered Reports, Exploratory Reports and Transparency and Openness Promotion Editor at Cortex, and a recommender at the [Peer Communities in Registered Reports](https://rr.peercommunityin.org/)."
-- name: Poulop
+- id: poulop
+  name: Poulop
+  pic: poulop.png
   link: https://educationducrayon.com/
   org: Independent
   bio: ""
-- name: Nicolas P. Rougier
+- id: rougier
+  name: Nicolas P. Rougier
+  pic: rougier.png
   link: https://www.labri.fr/perso/nrougier/
   org: Inria (Mnemosyne) and IMN, University of Bordeaux
   bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
-- name: Stephen Whitmarsh
+- id: whitmarsh
+  name: Stephen Whitmarsh
+  pending: true
+  pic: whitmarsh.jpg
   link: todo
   org: todo
   bio: ""
-- name: Mathieu Wolff
+- id: wolff
+  name: Mathieu Wolff
+  pic: wolff.png
   link: https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/
   org: INCIA, University of Bordeaux
   bio: "Mathieu is a team leader in the Decision and adaptation team in INCIA at the University of Bordeaux. His research focus is on thalamocortical circuits of adaptive decision-making. Parallel to that, Mathieu is part of the Reviewing Editors for Neuroscience in eLife journal."
-- name: Lyuba Zehl
+- id: zehl
+  name: Lyuba Zehl
+  pending: true
+  pic: zehl.jpg
   link: todo
   org: todo
   bio: ""

@@ -33,20 +33,7 @@ This edition will take place from October 16th to October 20th, 2023.
 
 ## Confirmed speakers
 
-- [Nicolas P. Rougier](https://www.labri.fr/perso/nrougier/#newsste){:target="_blank"}{:rel="noopener noreferrer"} 
-- [Sarah Cohen Boulakia](https://sarah.cohen-boulakia.eu/index.php){:target="_blank"}{:rel="noopener noreferrer"}
-- [Arnaud Legrand](https://polaris.imag.fr/arnaud.legrand/){:target="_blank"}{:rel="noopener noreferrer"}
-- [Emma Ganley](https://www.linkedin.com/in/eganley/?originalSubdomain=uk){:target="_blank"}{:rel="noopener noreferrer"}
-- [Florent Lebon](https://www.florent-lebon.com/phd-neuroscience){:target="_blank"}{:rel="noopener noreferrer"}
-- [Stephanie Forkel](https://www.stephanieforkel.com){:target="_blank"}{:rel="noopener noreferrer"}
-- [Andrew Davison](https://andrewdavison.info/){:target="_blank"}{:rel="noopener noreferrer"}
-- [Lyuba Zehl](https://ohbm.github.io/osr2020/speakers/lyuba_zehl_.html){:target="_blank"}{:rel="noopener noreferrer"}
-- [Robert McIntosh](https://www.ed.ac.uk/profile/robert-mcintosh){:target="_blank"}{:rel="noopener noreferrer"}
-- [Raphaëlle Bats](https://www.linkedin.com/in/raphaellebats/){:target="_blank"}{:rel="noopener noreferrer"}
-- [Mathieu Wolff](https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/){:target="_blank"}{:rel="noopener noreferrer"}
-- [Ikram Chaibi Kaadoud](https://ikramchraibik.com){:target="_blank"}{:rel="noopener noreferrer"}
-- [Poulop](https://educationducrayon.com){:target="_blank"}{:rel="noopener noreferrer"}
-
+{% include speakers.html %}
 
 ## News
 

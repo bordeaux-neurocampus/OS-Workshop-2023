@@ -44,11 +44,10 @@
   bio: ""
 - id: forkel
   name: Stephanie Forkel
-  pending: true
   pic: forkel.jpg
   link: https://www.stephanieforkel.com/
   org: Donders Institute, Radboud University
-  bio: ""
+  bio: "Stephanie Forkel is a Principal Investigator and Research Group leader at the Donders Institute and an Associate Professor at Radboud University in the Netherlands. She leads the Language and Communication Theme that spans three research Institutes and includes 18 group leaders interested in all aspects, from psycholinguistics and genetics to neurobiological aspects of linguistic and communicative functions. This year, she won the prestigious Elizabeth Warrington Prize for her outstanding work in neuroanatomy and cognition. Her research investigates neurovariability and its impact on cognition across brain states (in health and disease). Understanding what we share and what makes us unique will change how we approach neurological diagnostics, predictions, and treatments, leading to improved precision neuroscience. She won the OHBM 2022 Educational Award for Neuroimaging for her Science Outreach & Communication YouTube channel Clinical Neuroanatomy Seminars."
 - id: ganley
   name: Emma Ganley
   pic: ganley.jpg
@@ -64,7 +63,8 @@
 - id: inam
   name: Khadija Inam
   pic: inam.jpg
-  link: https://www.linkedin.com/in/khadijainam/
+  # link: https://www.linkedin.com/in/khadijainam/
+  link: https://twitter.com/Sci_BrainStorm
   org: PHARM Research
   bio: "Khadija is a Clinical Research Associate at PHARM Research, a french CRO supporting clinical trials in France. She's also the editor of Sci_BrainStorm, the Neuroscience journal of the Université de Bordeaux. She aspires to play an active role to to promote scientific discovery behind therapeutic innovation."
 - id: leblois
@@ -104,12 +104,12 @@
   org: Inria (Mnemosyne) and IMN, University of Bordeaux
   bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
 - id: whitmarsh
-  name: Stephen Whitmarsh
   pending: true
+  name: Stephen Whitmarsh
   pic: whitmarsh.jpg
-  link: todo
-  org: todo
-  bio: ""
+  link: https://stephenwhitmarsh.com/
+  org: Paris Brain Institute - ICM
+  bio: "Stephen Whitmarsh is a neuroscience researcher, artist and producer. As a scientist, he investigates how the brain generates epileptic activity, using intercranial recordings from chronically implanted epileptic patients. As an artist and producer, he creates cross-disciplinary art-science events around the world, informed by neuroscience and artistic collaborations. He is President and co-founder of the EEGsynth open-source software for Brain-Computer-Music-Interfaces, and co-founder of 1+1=3, an association for artistic-scientific production."
 - id: wolff
   name: Mathieu Wolff
   pic: wolff.png
@@ -117,9 +117,10 @@
   org: INCIA, University of Bordeaux
   bio: "Mathieu is a team leader in the Decision and adaptation team in INCIA at the University of Bordeaux. His research focus is on thalamocortical circuits of adaptive decision-making. Parallel to that, Mathieu is part of the Reviewing Editors for Neuroscience in eLife journal."
 - id: zehl
-  name: Lyuba Zehl
   pending: true
+  name: Lyuba Zehl
   pic: zehl.jpg
-  link: todo
-  org: todo
+  link: https://www.linkedin.com/in/lyuba-zehl
+  org: Jülich Research Center
   bio: ""
+  

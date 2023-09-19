@@ -6,7 +6,7 @@ permalink: /apply
 
 Applications are now closed.
 
-Notifications of selection will be sent from September 11th, 2023.
+PhD students at the University of Bordeaux can now register on ADUM in order to validate doctoral school training hours.
 
 We are looking forward to meeting you!
 

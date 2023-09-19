@@ -1,51 +1,37 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
-
+    
     .planning {
-    table-layout: fixed ;
-    width: 100% ;
+        table-layout: fixed ;
+        width: 100% ;
     }
-
+    
     .planning .slot {
-    width: 19% ;
+        width: 19% ;
     }
-
+    
     .planning a {
         color: inherit;
     }
     
-    .planning .s4 {
+    .planning .day {
+        background-color: #274e13;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'docs-Calibri', Arial;
+        font-size: 10pt;
+        vertical-align: middle;
+        white-space: normal;
+        overflow: hidden;
+        word-wrap: break-word;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+    
+    .planning .time {
         background-color: #ffffff;
         text-align: center;
         color: #274e13;
-        font-family: 'docs-Calibri', Arial;
-        font-size: 10pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 2px 3px 2px 3px;
-    }
-    
-    .planning .s1 {
-        background-color: #274e13;
-        text-align: center;
-        color: #ffffff;
-        font-family: 'docs-Calibri', Arial;
-        font-size: 10pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 2px 3px 2px 3px;
-    }
-    
-    .planning .s0 {
-        background-color: #274e13;
-        text-align: center;
-        color: #ffffff;
         font-family: 'docs-Calibri', Arial;
         font-size: 10pt;
         vertical-align: top;
@@ -55,8 +41,8 @@
         direction: ltr;
         padding: 2px 3px 2px 3px;
     }
-    
-    .planning .s3 {
+
+    .planning .noevent {
         background-color: #6d6d6d;
         text-align: center;
         color: #274e13;
@@ -70,21 +56,7 @@
         padding: 2px 3px 2px 3px;
     }
     
-    .planning .s7 {
-        background-color: #d0e0e3;
-        text-align: center;
-        color: #274e13;
-        font-family: 'Arial';
-        font-size: 9pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 2px 3px 2px 3px;
-    }
-    
-    .planning .s8 {
+    .planning .opening_closing {
         background-color: #f9cb9c;
         text-align: center;
         color: #274e13;
@@ -98,41 +70,13 @@
         padding: 2px 3px 2px 3px;
     }
     
-    .planning .s5 {
-        background-color: #d0e0e3;
-        text-align: center;
-        color: #274e13;
-        font-family: 'docs-Calibri', Arial;
-        font-size: 10pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 2px 3px 2px 3px;
-    }
-    
-    .planning .s10 {
-        background-color: #d0e0e3;
-        text-align: center;
-        color: #274e13;
-        font-family: 'Arial';
-        font-size: 9pt;
-        vertical-align: middle;
-        white-space: normal;
-        overflow: hidden;
-        word-wrap: break-word;
-        direction: ltr;
-        padding: 2px 3px 2px 3px;
-    }
-    
-    .planning .s2 {
+    .planning .session {
         background-color: #ffffff;
         text-align: center;
         color: #274e13;
         font-family: 'docs-Calibri', Arial;
         font-size: 10pt;
-        vertical-align: top;
+        vertical-align: middle;
         white-space: normal;
         overflow: hidden;
         word-wrap: break-word;
@@ -140,7 +84,21 @@
         padding: 2px 3px 2px 3px;
     }
     
-    .planning .s6 {
+    .planning .break {
+        background-color: #d0e0e3;
+        text-align: center;
+        color: #274e13;
+        font-family: 'docs-Calibri', Arial;
+        font-size: 10pt;
+        vertical-align: middle;
+        white-space: normal;
+        overflow: hidden;
+        word-wrap: break-word;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+    
+    .planning .breaktime {
         background-color: #d0e0e3;
         text-align: center;
         color: #274e13;
@@ -154,7 +112,7 @@
         padding: 2px 3px 2px 3px;
     }
     
-    .planning .s9 {
+    .planning .social {
         background-color: #b6d7a8;
         text-align: center;
         color: #274e13;
@@ -171,41 +129,41 @@
     <table class="planning" cellspacing="0" cellpadding="0">
         <thead>
             <tr style="height: 10px">
-                <td class="s0"></td>
-                <td class="s1">Monday</td>
-                <td class="s1">Tuesday</td>
-                <td class="s1">Wednesday</td>
-                <td class="s1">Thursday</td>
-                <td class="s1">Friday</td>
+                <td class="day"></td>
+                <td class="day">Monday</td>
+                <td class="day">Tuesday</td>
+                <td class="day">Wednesday</td>
+                <td class="day">Thursday</td>
+                <td class="day">Friday</td>
             </tr>
         </thead>
         <tbody>
             <tr style="height: 10px">
-                <th class="s2">09:00</th>
-                <td class="slot s3" rowspan="5"></td>
+                <th class="time">09:00</th>
+                <td class="slot noevent" rowspan="5"></td>
                 {% assign event = site.data.events.T4 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.T7 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.T10 %}
-                <td class="slot s4" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.P1 %}
-                <td class="slot s4" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}, </a>
@@ -215,16 +173,16 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">09:45</th>
+                <th class="time">09:45</th>
                 {% assign event = site.data.events.T5 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.T8 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
@@ -232,37 +190,37 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">10:30</th>
-                <td class="slot s5">break</td>
-                <td class="slot s5">break</td>
-                <td class="slot s5">break</td>
-                <td class="slot s5">break</td>
+                <th class="time">10:30</th>
+                <td class="slot break">break</td>
+                <td class="slot break">break</td>
+                <td class="slot break">break</td>
+                <td class="slot break">break</td>
             </tr>
             <tr style="height: 20px">
-                <th class="s2">10:45</th>
+                <th class="time">10:45</th>
                 {% assign event = site.data.events.T6 %}
-                <td class="slot s4" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.T9 %}
-                <td class="slot s4" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.T11 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.P2 %}
-                <td class="slot s4" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
@@ -270,9 +228,9 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">11:30</th>
+                <th class="time">11:30</th>
                 {% assign event = site.data.events.T12 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
@@ -280,56 +238,56 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s6">12:15</th>
-                <td class="slot s7"></td>
-                <td class="slot s5">lunch</td>
-                <td class="slot s5">lunch</td>
-                <td class="slot s5">lunch</td>
-                <td class="slot s8" dir="ltr">Closing talk</td>
+                <th class="breaktime">12:15</th>
+                <td class="slot break"></td>
+                <td class="slot break">lunch</td>
+                <td class="slot break">lunch</td>
+                <td class="slot break">lunch</td>
+                <td class="slot opening_closing" dir="ltr">Closing talk</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">13:30</th>
-                <td class="slot s5">Registration + Welcome Coffee</td>
+                <th class="time">13:30</th>
+                <td class="slot break">Registration + Welcome Coffee</td>
                 {% assign event = site.data.events.WS1 %}
-                <td class="slot s4" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.WS3 %}
-                <td class="slot s4" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.WS5 %}
-                <td class="slot s4" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
-                <td class="slot s9" dir="ltr" rowspan="2">Lunch + social activities</td>
+                <td class="slot social" dir="ltr" rowspan="2">Lunch + social activities</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">14:00</th>
-                <td class="slot s8" dir="ltr">Opening Talk</td>
+                <th class="time">14:00</th>
+                <td class="slot opening_closing" dir="ltr">Opening Talk</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">14:15</th>
-                <td class="slot s4" dir="ltr">Presentation of the Workshop</td>
-                <td class="slot s3" rowspan="10"></td>
+                <th class="time">14:15</th>
+                <td class="slot session" dir="ltr">Presentation of the Workshop</td>
+                <td class="slot noevent" rowspan="10"></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">14:45</th>
-                <td class="slot s5">break</td>
+                <th class="time">14:45</th>
+                <td class="slot break">break</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">15:00</th>
+                <th class="time">15:00</th>
                 {% assign event = site.data.events.T2 %}
-                <td class="slot s4" dir="ltr" rowspan="4">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="4">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
@@ -337,29 +295,29 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">15:30</th>
-                <td class="slot s5">break</td>
-                <td class="slot s5">break</td>
-                <td class="slot s5">break</td>
+                <th class="time">15:30</th>
+                <td class="slot break">break</td>
+                <td class="slot break">break</td>
+                <td class="slot break">break</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">15:45</th>
+                <th class="time">15:45</th>
                 {% assign event = site.data.events.WS2 %}
-                <td class="slot s4" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.WS4 %}
-                <td class="slot s4" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
                     {% endfor %}
                 </i></font></td>
                 {% assign event = site.data.events.WS6 %}
-                <td class="slot s4" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
@@ -367,16 +325,16 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">16:00</th>
+                <th class="time">16:00</th>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">16:15</th>
-                <td class="slot s5">break</td>
+                <th class="time">16:15</th>
+                <td class="slot break">break</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">16:30</th>
+                <th class="time">16:30</th>
                 {% assign event = site.data.events.T3 %}
-                <td class="slot s4" dir="ltr">{{ event.title }}<br><font size="-1"><i>
+                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
                     {% for speaker_id in event.speakers %}
                     {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
                     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
@@ -384,15 +342,15 @@
                 </i></font></td>
             </tr>
             <tr style="height: 10px">
-                <th class="s2">17:45</th>
-                <td class="slot s4">Presentation of the attendees</td>
+                <th class="time">17:45</th>
+                <td class="slot session">Presentation of the attendees</td>
             </tr>
             <tr style="height: 10px">
-                <th class="s6">Evening</th>
-                <td class="slot s10">Free</td>
-                <td class="slot s5">Happy hour</td>
-                <td class="slot s5">Free</td>
-                <td class="slot s5">Dinner</td>
+                <th class="breaktime">Evening</th>
+                <td class="slot break">Free</td>
+                <td class="slot social">Happy hour</td>
+                <td class="slot break">Free</td>
+                <td class="slot social">Dinner</td>
             </tr>
         </tbody>
     </table>

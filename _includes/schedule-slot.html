@@ -1,0 +1,21 @@
+{{ event.title }}
+<br>
+<span class="speaker">
+    {% for speaker_id in event.speakers %}
+    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
+    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
+    {% endfor %}
+</span>
+{% if event.additional_speakers %}
+<span class="speaker">
+    {% for speaker in event.additional_speakers %}
+    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
+    {% endfor %}
+</span>
+{% endif %}
+<br>
+{% if event.room %}
+<span class="room">
+    {{ event.room }}
+</span>
+{% endif %}

@@ -13,6 +13,17 @@
     .planning a {
         color: inherit;
     }
+
+    .planning span.speaker {
+        font-size: smaller;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .planning span.room {
+        font-size: smaller;
+        font-style: italic;
+    }
     
     .planning .day {
         background-color: #274e13;
@@ -142,52 +153,20 @@
                 <th class="time">09:00</th>
                 <td class="slot noevent" rowspan="5"></td>
                 {% assign event = site.data.events.T4 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.T7 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.T10 %}
-                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="2">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.P1 %}
-                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}, </a>
-                    {% endfor %}
-                    <a href="https://www.bordeaux-neurocampus.fr/en/brainstorm-the-new-neuroscience-student-journal-in-bordeaux/" target="_blank">Brainstorm, </a>
-                    <a href="https://osf.io/9hkv2" target="_blank">Reproducibility Bordeaux</a>
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="2">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">09:45</th>
                 {% assign event = site.data.events.T5 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.T8 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">10:30</th>
@@ -199,43 +178,18 @@
             <tr style="height: 20px">
                 <th class="time">10:45</th>
                 {% assign event = site.data.events.T6 %}
-                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="2">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.T9 %}
-                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="2">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.T11 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.P2 %}
-                <td class="slot session" dir="ltr" rowspan="2">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="2">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">11:30</th>
                 {% assign event = site.data.events.T12 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="breaktime">12:15</th>
@@ -249,26 +203,11 @@
                 <th class="time">13:30</th>
                 <td class="slot break">Registration + Welcome Coffee</td>
                 {% assign event = site.data.events.WS1 %}
-                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="5">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.WS3 %}
-                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="5">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.WS5 %}
-                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="5">{% include schedule-slot.html %}</td>
                 <td class="slot social" dir="ltr" rowspan="2">Lunch + social activities</td>
             </tr>
             <tr style="height: 10px">
@@ -287,12 +226,7 @@
             <tr style="height: 10px">
                 <th class="time">15:00</th>
                 {% assign event = site.data.events.T2 %}
-                <td class="slot session" dir="ltr" rowspan="4">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="4">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">15:30</th>
@@ -303,26 +237,11 @@
             <tr style="height: 10px">
                 <th class="time">15:45</th>
                 {% assign event = site.data.events.WS2 %}
-                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="5">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.WS4 %}
-                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="5">{% include schedule-slot.html %}</td>
                 {% assign event = site.data.events.WS6 %}
-                <td class="slot session" dir="ltr" rowspan="5">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr" rowspan="5">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">16:00</th>
@@ -334,12 +253,7 @@
             <tr style="height: 10px">
                 <th class="time">16:30</th>
                 {% assign event = site.data.events.T3 %}
-                <td class="slot session" dir="ltr">{{ event.title }}<br><font size="-1"><i>
-                    {% for speaker_id in event.speakers %}
-                    {% assign speaker = site.data.speakers | where:"id", speaker_id | first %}
-                    <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>
-                    {% endfor %}
-                </i></font></td>
+                <td class="slot session" dir="ltr">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">17:45</th>
@@ -348,9 +262,9 @@
             <tr style="height: 10px">
                 <th class="breaktime">Evening</th>
                 <td class="slot break">Free</td>
-                <td class="slot social">Happy hour</td>
-                <td class="slot break">Free</td>
                 <td class="slot social">Dinner</td>
+                <td class="slot break">Free</td>
+                <td class="slot social">Happy Hour</td>
             </tr>
         </tbody>
     </table>

@@ -1,4 +1,3 @@
-
 T1:
   title: "Opening Talk"
 T2:
@@ -39,21 +38,27 @@ T12:
 WS1:
   title: "WS1: Writing your Pre-registration"
   speakers: mcintosh
+  room: "Pyramid (IINS, Broca 2nd floor) / Salle de Formation (CGFB)"
 WS2:
   title: "WS2: DMPs"
   speakers: zehl
+  room: "Pyramid (IINS, Broca 2nd floor) / Salle de Formation (CGFB)"
 WS3:
   title: "WS3: Version control in the lab"
   speakers: rougier
+  room: "Salle Nord / Salle Sud (CGFB)"
 WS4:
   title: "WS4: Writing and sharing your protocols with Protocols.io"
   speakers: ganley
+  room: "Salle Nord / Salle Sud (CGFB)"
 WS5:
   title: "WS5: Open Data"
   speakers: davison
+  room: "Salle Nord / Salle Sud (CGFB)"
 WS6:
   title: "WS6: Science outreach/popularization"
   speakers: poulop
+  room: "Salle Nord / Salle Sud (CGFB)"
 P1:
   title: "Panel 1: Other ways to get involved with OS"
   speakers:
@@ -61,6 +66,13 @@ P1:
     - forkel
     - leblois
     - whitmarsh
+  additional_speakers:
+    - id: brainstorm
+      name: Brainstorm
+      link: https://www.bordeaux-neurocampus.fr/en/brainstorm-the-new-neuroscience-student-journal-in-bordeaux/
+    - id: reproducibilitea
+      name: ReproducibiliTea Bordeaux
+      link: https://osf.io/9hkv2
 P2:
   title: "Panel 2: Stakeholders and Research Assessment"
   speakers:

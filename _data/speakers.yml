@@ -103,7 +103,6 @@
   org: Inria (Mnemosyne) and IMN, University of Bordeaux
   bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
 - id: whitmarsh
-  pending: true
   name: Stephen Whitmarsh
   pic: whitmarsh.jpg
   link: https://stephenwhitmarsh.com/

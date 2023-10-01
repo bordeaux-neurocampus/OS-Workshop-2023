@@ -104,7 +104,7 @@
   bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
 - id: whitmarsh
   name: Stephen Whitmarsh
-  pic: whitmarsh.jpg
+  pic: whitmarsh.png
   link: https://stephenwhitmarsh.com/
   org: Paris Brain Institute - ICM
   bio: "Stephen Whitmarsh is a neuroscience researcher, artist and producer. As a scientist, he investigates how the brain generates epileptic activity, using intercranial recordings from chronically implanted epileptic patients. As an artist and producer, he creates cross-disciplinary art-science events around the world, informed by neuroscience and artistic collaborations. He is President and co-founder of the EEGsynth open-source software for Brain-Computer-Music-Interfaces, and co-founder of 1+1=3, an association for artistic-scientific production."

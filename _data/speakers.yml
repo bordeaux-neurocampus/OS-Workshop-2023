@@ -81,7 +81,7 @@
 - id: legrand
   name: Arnaud Legrand
   pic: legrand.png
-  link: https://polaris.imag.fr/arnaud.legrand/
+  link: https://team.inria.fr/polaris/members/arnaud-legrand/
   org: LIG Polaris, Grenoble, CNRS
   bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing, performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
 - id: mcintosh

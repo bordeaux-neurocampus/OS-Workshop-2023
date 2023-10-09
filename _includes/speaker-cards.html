@@ -93,9 +93,15 @@
         <div></div>
         {% for speaker in site.data.speakers %}
         {% unless speaker.pending %}
+        {% if speaker.pic %}
         <div id="card:{{ speaker.name }}" class="card" style="background-image: url('{{ site.baseurl }}/assets/img/speakers/{{ speaker.pic }}')">
             <p>{{ speaker.name }}</p>
         </div>
+        {% else %}
+        <div id="card:{{ speaker.name }}" class="card" style="background-color: lightgreen">
+            <p>{{ speaker.name }}</p>
+        </div>
+        {% endif %}
         {% endunless %}
         {% endfor %}
     </div> 

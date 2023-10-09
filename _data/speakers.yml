@@ -37,7 +37,6 @@
   bio: "Andrew Davison is a senior research scientist in the Paris-Saclay Institute of Neuroscience (CNRS/Université Paris-Saclay), where he leads the Neuroinformatics group. His main research interests are in large-scale, data-constrained, biologically-detailed modelling of neuronal networks, including development of tools and standards to facilitate collaborative modelling, systematic model validation, reproducible research, neurophysiology data sharing, and development of models of the early visual system in close collaboration with experimentalists."
 - id: ducq
   name: Yves Ducq
-  pending: true
   pic: ducq.jpg
   link: https://www.linkedin.com/in/yves-ducq-1492b918/
   org: University of Bordeaux
@@ -84,6 +83,12 @@
   link: https://team.inria.fr/polaris/members/arnaud-legrand/
   org: LIG Polaris, Grenoble, CNRS
   bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing, performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
+- id: nadja
+  name: Agnès Nadjar
+  pic: nadjar.jpg
+  link: https://www.bordeaux-neurocampus.fr/staff/agnes-nadjar/
+  org: Neurocentre Magendie, University of Bordeaux
+  bio: ""
 - id: mcintosh
   name: Robert McIntosh
   pic: mcintosh.png

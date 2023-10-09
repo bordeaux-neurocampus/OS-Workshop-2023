@@ -197,7 +197,8 @@
                 <td class="slot break">lunch</td>
                 <td class="slot break">lunch</td>
                 <td class="slot break">lunch</td>
-                <td class="slot opening_closing" dir="ltr">Closing talk</td>
+                {% assign event = site.data.events.TC %}  <!-- Closing talk -->
+                <td class="slot opening_closing" dir="ltr">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">13:30</th>
@@ -212,7 +213,8 @@
             </tr>
             <tr style="height: 10px">
                 <th class="time">14:00</th>
-                <td class="slot opening_closing" dir="ltr">Opening Talk</td>
+                {% assign event = site.data.events.T1 %}  <!-- Opening talk -->
+                <td class="slot opening_closing" dir="ltr">{% include schedule-slot.html %}</td>
             </tr>
             <tr style="height: 10px">
                 <th class="time">14:15</th>

@@ -1,5 +1,6 @@
 T1:
   title: "Opening Talk"
+  speakers: ducq
 T2:
   title: "Open Science: the Big Picture"
   speakers: cohen
@@ -35,6 +36,9 @@ T11:
 T12:
   title: "Science outreach/popularization"
   speakers: forkel
+TC:
+  title: "Closing Talk"
+  speakers: nadjar
 WS1:
   title: "WS1: Writing your Pre-registration"
   speakers: mcintosh

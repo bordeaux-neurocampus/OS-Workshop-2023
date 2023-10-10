@@ -43,26 +43,32 @@ WS1:
   title: "WS1: Writing your Pre-registration"
   speakers: mcintosh
   room: "Pyramid (IINS, Broca 2nd floor) / Salle de Formation (CGFB)"
+  alterned: true
 WS2:
   title: "WS2: DMPs"
   speakers: zehl
   room: "Pyramid (IINS, Broca 2nd floor) / Salle de Formation (CGFB)"
+  alterned: true
 WS3:
   title: "WS3: Version control in the lab"
   speakers: rougier
   room: "Salle Nord / Salle Sud (CGFB)"
+  alterned: true
 WS4:
   title: "WS4: Writing and sharing your protocols with Protocols.io"
   speakers: ganley
   room: "Salle Nord / Salle Sud (CGFB)"
+  alterned: true
 WS5:
   title: "WS5: Open Data"
   speakers: davison
   room: "Salle Nord / Salle Sud (CGFB)"
+  alterned: true
 WS6:
   title: "WS6: Science outreach/popularization"
   speakers: poulop
   room: "Salle Nord / Salle Sud (CGFB)"
+  alterned: true
 P1:
   title: "Panel 1: Other ways to get involved with OS"
   speakers:

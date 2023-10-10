@@ -1,4 +1,8 @@
+{% if event.alterned %}
+{{ event.title }}<sup style="color: royalblue;">[alt.]</sup>
+{% else %}
 {{ event.title }}
+{% endif %}
 <br>
 <span class="speaker">
     {% for speaker_id in event.speakers %}

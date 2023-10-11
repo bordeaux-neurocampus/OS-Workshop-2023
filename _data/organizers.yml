@@ -45,10 +45,6 @@ team:
     link: https://www.linkedin.com/in/chl-mercier 
     org:
       - *aliasinria
-  - name: Mélodie Ambroset 
-    link: https://www.linkedin.com/in/m%C3%A9lodie-a-2299143a/
-    org:
-      - *aliasincia
   - name: Ankur Gupta
     link: https://www.linkedin.com/in/guptankur/
     org:

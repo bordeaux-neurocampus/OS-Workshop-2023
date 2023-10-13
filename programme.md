@@ -4,6 +4,10 @@ title: Program
 permalink: /program
 ---
 
+&#128226; <b>Ask for your copy of the program!</b> &#128226;
+
+<b><a href="{{ site.baseurl }}/assets/OS_workshop_booklet_web.pdf" download>Download program booklet (PDF)</a></b>
+
  {% include schedule.html %}
 
 <b>Notes</b>: 

@@ -11,6 +11,7 @@
     {% endfor %}
 </span>
 {% if event.additional_speakers %}
+,
 <span class="speaker">
     {% for speaker in event.additional_speakers %}
     <a href="{{ speaker.link }}" target="_blank">{{ speaker.name }}{% if forloop.rindex0 > 0 %}, {% endif %}</a>

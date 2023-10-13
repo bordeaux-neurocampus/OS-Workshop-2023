@@ -2,38 +2,38 @@
   name: Raphaëlle Bats
   pic: bats.jpg
   link: https://www.linkedin.com/in/raphaellebats/
-  org: University of Bordeaux
+  org: Urfist, University of Bordeaux
   bio: "Raphaëlle Bats is the co-head of the URFIST Bordeaux (Unité Régionale de Formation à l'Information Scientifique et Technique), University of Bordeaux, France. She defended her PhD Thesis in sociology in October 2019: \"From Participation to Collective Mobilization: public libraries looking for their democratic vocation\" (dir. Denis Merklen and Etienne Tassin). She still running different research projects in sociology and information science about participation, information and climate change, and specifically the project ECODOC that aims to design tools to engage a dialog between scientific information and lay information in territories facing climatic transition. Raphaëlle Bats joined the Citizen Science Working Group of LIBER in June 2021."
 - id: beyeler
   name: Anna Beyeler
   pic: beyeler.jpg
   link: https://www.bordeaux-neurocampus.fr/en/staff/anna-beyeler/
-  org: University of Bordeaux
+  org: Neurocentre Magendie, INSERM
   bio: "Anna Beyeler received her undergraduate degree in Biochemistry from the University of Bordeaux in 2006. Her expertise in electrophysiology roots in her doctoral training in the same university, after what she joined the Picower Institute for Learning and Memory (MIT) as post-doctoral fellow. There, she identified circuit and synaptic mechanisms of emotions in the amygdala, underlying memory formation and retrieval of positive and negative associations. After five years abroad, she started her lab in the Neurocentre Magendie within the vibrant Neuroscientific community of Bordeaux. Since then her team is studying the contribution of circuits of the insular cortex to emotional valence and anxiety, as well as the alteration of those circuits in pre-clinical models of psychiatric disorders. They use a wide panel of techniques including fiber photometry recordings, in vivo and ex vivo electrophysiology, opto- and chemo-genetics, along with cutting-edge whole-brain circuit mapping. In 2020, Dr. Beyeler has been tenured as a principal investigator at the French Institute of Health (INSERM). She also received the Avenir fund of INSERM, and grants from ANR, FRM and cercle FSER. She is also an associate member of the American College of Neuropsychopharmacology (ACNP), a member of the FENS-Kavli Network, and an ambassador of the ALBA network for diversity in Neuroscience."
 - id: centeno
   name: Eduarda Centeno
   pic: centeno.jpg
   link: https://www.linkedin.com/in/eduardagzc/
-  org: University of Bordeaux
+  org: IMN, CNRS
   bio: "Eduarda is a Ph.D. candidate in Neuroscience at Neurocampus Bordeaux and a part-time Research Assistant at UMC Amsterdam (VUmc). Passionate about Open Science, she develops open-source Python pipelines for songbird research. At VUmc, Eduarda promotes and implements Open Science practices within her team and coordinates a working group for departmental transition. She hosts a ReproducibiliTea journal club in Bordeaux, is a member of the Open Science Community Amsterdam board (OSCA), and recently became the Open Science Expert representing the Netherlands in the Knowledge Exchange network. [Workshop Organizer]"
 - id: chraibi
   name: Ikram Chraibi Kaadoud
   pic: chraibi.png
   link: https://ikramchraibik.com/
-  org: IMT Atlantique, UMR CNRS 6285
+  org: IMT Atlantique (UMR6285), CNRS
   bio: "External Research Associate in Human-Centered Explainable AI, Ikram is interested in the world representation built by AI architectures, in the transparency of AI algorithms, and above all in interpretability and explainability. As passionate science facilitator, she is also one of the editors of the Blog Binaire attached to the news magazine \"LeMonde.fr\" that aim to make science accessible to all, especially in highly technical fields, so that everyone can be an actor in their own digital environment!\n 
   Her goal: to create a more inclusive and ethical computer science field."
 - id: cohen
   name: Sarah Cohen-Boulakia
   pic: cohen.jpg
   link: https://sarah.cohen-boulakia.eu/
-  org: Paris-Saclay University
+  org: Université Paris-Saclay
   bio: "Sarah Cohen-Boulakia is full professor in Computer Science at Paris-Saclay University, specialized in biological and health data integration. She works on improving reproducibility and reusability of scientific protocols to analyze massive biomedical datasets, and is involved in several FAIR workflow initiatives. Since 2020, she in charge of the Data Integration task within the <a href=\"https://covid-nma.com/\" target=\"_blank\"> COVID-NMA</a> project, whose database is used by several institutions including the World Health Organisation (WHO)."
 - id: davison
   name: Andrew Davison
   pic: davison.png
   link: https://andrewdavison.info/
-  org: Université Paris-Saclay, CNRS
+  org: Institut NeuroPSI (UMR9197), Université Paris-Saclay, CNRS
   bio: "Andrew Davison is a senior research scientist in the Paris-Saclay Institute of Neuroscience (CNRS/Université Paris-Saclay), where he leads the Neuroinformatics group. His main research interests are in large-scale, data-constrained, biologically-detailed modelling of neuronal networks, including development of tools and standards to facilitate collaborative modelling, systematic model validation, reproducible research, neurophysiology data sharing, and development of models of the early visual system in close collaboration with experimentalists."
 - id: ducq
   name: Yves Ducq
@@ -57,7 +57,7 @@
   name: Fjola Hyseni
   pic: hyseni.jpg
   link: https://www.linkedin.com/in/fjolahyseni/
-  org: University of Bordeaux
+  org: Inria, IMN, LaBRI
   bio: "Fjola is a Medical Doctor and a Ph.D. candidate in Computational Neuroscience at the Institute of Neurodegenerative Diseases in Bordeaux. Her PhD work is focused on modeling temporal control of birdsong. Alongside her research work, she is passionate and devoted to  Open Science and hosts the ReproducibiliTea journal club in Bordeaux. [Workshop Organizer]"
 - id: inam
   name: Khadija Inam
@@ -69,7 +69,7 @@
   name: Arthur Leblois
   pic: leblois.jpg
   link: https://www.bordeaux-neurocampus.fr/en/staff/arthur-leblois/
-  org: University of Bordeaux
+  org: IMN, CNRS
   bio: "Arthur Leblois completed his PhD in Paris (Pierre and Marie Curie University, between 2002 and 2006) under the supervision of David Hansel and Thomas Boraud on the dynamics of the basal ganglia-thalamo-cortical loop and the link with motor symptoms. of Parkinson's disease. During his PhD, he showed that pathological oscillations of activity in the basal ganglia are not the cause of the symptoms of Parkinson's disease using a combination of experimental and theoretical investigation. He then completed a postdoctoral internship in Seattle (between 2007 and 2010), in the laboratory of David Perkel, on the role of dopamine and rapid transmission within the basal ganglia in songbirds. During his postdoctoral internship, he showed that the level of tonic dopamine in the striatum regulates the variability of song depending on the social context in the mandarin and that the songbird basal ganglia circuit is specialized for fast information processing. After his post-doc, he returned to Paris, at the Paris Descartes University, where he set up his research group on the neural mechanisms of birdsong thanks to various funding (from ANR, Europe, Paris City). He was recruited in 2012 at the CNRS as a research fellow before recently joining more recently the Neurocampus in Bordeaux (at the IMN). The common thread of his research is the analysis of neuronal dynamics and the emergence of functions and dysfunctions in large neural networks, applied to the functions of the basal ganglia in learning and motor control, as well as their dysfunctions in pathologies such as Parkinson's disease and dystonias. More recently, he is interested in the interaction between basal ganglia and cerebellum and its role in motor learning. It always combines, as much as possible, theoretical modeling (methods borrowed from physics, mathematics and computer science) and experimentation (electrophysiology, behavior and optogenetics) in a permanent dialogue which is based on the formulation of predictions resulting from theoretical models which are then tested experimentally."
 - id: lebon
   name: Florent Lebon
@@ -77,17 +77,22 @@
   link: https://www.florent-lebon.com/phd-neuroscience/
   org: INSERM 1093, University of Bourgogne
   bio: "Florent is an associate Professor at the INSERM laboratory Cognition, Action and Sensorimotor Plasticity in Dijon. His research projects encompass behavioral psychology and cognitive neuroscience. The main goal is to understand the link between neural processes underlying motion (movement preparation, motor imagery, action language). Ongoing works include the development of non-pharmacological interventions, such as mental practice or non-invasive brain stimulation, for motor learning and rehabilitation of pathologies implying the sensorimotor system. Florent is currently part of the managing board of Peer Community In Neuroscience, a free recommendation process of scientific preprints based on peer reviews."
+- id: lecomte
+  pic: null
+  link: https://www.bordeaux-neurocampus.fr/en/staff/simon-lecomte/
+  org: IINS, University of Bordeaux
+  bio: ""
 - id: legrand
   name: Arnaud Legrand
   pic: legrand.png
   link: https://team.inria.fr/polaris/members/arnaud-legrand/
-  org: LIG Polaris, Grenoble, CNRS
+  org: LIG, CNRS, Inria, Université Grenoble Alpes
   bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing, performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
 - id: nadjar
   name: Agnès Nadjar
   pic: null
   link: https://www.bordeaux-neurocampus.fr/staff/agnes-nadjar/
-  org: Neurocentre Magendie, University of Bordeaux
+  org: Neurocentre Magendie, Universitè of Bordeaux
   bio: ""
 - id: mcintosh
   name: Robert McIntosh
@@ -96,6 +101,7 @@
   org: University of Edinburgh
   bio: "Rob McIntosh is Professor of Experimental Neuropsychology at the University of Edinburgh, and is the current Open Research Officer for the British Neuropsychological Society. He has been closely involved with editing and developing the Registered Reports since this article format was launched at the journal Cortex in 2013. He is currently Registered Reports, Exploratory Reports and Transparency and Openness Promotion Editor at Cortex, and a recommender at the [Peer Communities in Registered Reports](https://rr.peercommunityin.org/)."
 - id: poulop
+  pending: true
   name: Poulop
   pic: poulop.png
   link: https://educationducrayon.com/
@@ -105,19 +111,19 @@
   name: Nicolas P. Rougier
   pic: rougier.png
   link: https://www.labri.fr/perso/nrougier/
-  org: Inria (Mnemosyne) and IMN, University of Bordeaux
+  org: Inria, IMN, LaBRI
   bio: "Nicolas P. Rougier is a senior researcher in computational and cognitive neuroscience, working at the intersection of life sciences and computer science. He is also actively involved in the field of open and reproducible science: Among its various contributions, he co-founded the open-acess, peer-reviewed journal <a href=\"https://rescience.github.io/\" target=\"_blank\">ReScience C</a>, promoting new and open-source implementations of computational research results ensuring their reproducibility."
 - id: whitmarsh
   name: Stephen Whitmarsh
   pic: whitmarsh.png
   link: https://stephenwhitmarsh.com/
-  org: Paris Brain Institute - ICM
+  org: Paris Brain Institute, ICM
   bio: "Stephen Whitmarsh is a neuroscience researcher, artist and producer. As a scientist, he investigates how the brain generates epileptic activity, using intercranial recordings from chronically implanted epileptic patients. As an artist and producer, he creates cross-disciplinary art-science events around the world, informed by neuroscience and artistic collaborations. He is President and co-founder of the EEGsynth open-source software for Brain-Computer-Music-Interfaces, and co-founder of 1+1=3, an association for artistic-scientific production."
 - id: wolff
   name: Mathieu Wolff
   pic: wolff.png
   link: https://www.bordeaux-neurocampus.fr/en/staff/mathieu-wolff/
-  org: INCIA, University of Bordeaux
+  org: INCIA, CNRS, University of Bordeaux
   bio: "Mathieu is a team leader in the Decision and adaptation team in INCIA at the University of Bordeaux. His research focus is on thalamocortical circuits of adaptive decision-making. Parallel to that, Mathieu is part of the Reviewing Editors for Neuroscience in eLife journal."
 - id: zehl
   name: Lyuba Zehl

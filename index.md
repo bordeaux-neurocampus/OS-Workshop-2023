@@ -9,6 +9,10 @@ Welcome to the first edition of the Bordeaux Neurocampus Open Science Workshop, 
 
 This edition will take place from October 16th to October 20th, 2023.
 
+&#128226; <b>Ask for your copy of the program!</b> &#128226;
+
+<b><a href="{{ site.baseurl }}/assets/OS_workshop_booklet_web.pdf" download>Download program booklet (PDF)</a></b>
+
 ## Venue
 
 [Bordeaux Neurocampus](https://www.bordeaux-neurocampus.fr/en/){:target="_blank"}{:rel="noopener noreferrer"}

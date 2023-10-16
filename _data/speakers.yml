@@ -14,7 +14,7 @@
   name: Eduarda Centeno
   pic: centeno.jpg
   link: https://www.linkedin.com/in/eduardagzc/
-  org: IMN, CNRS
+  org: IMN, CNRS; ReproducibiliTea
   bio: "Eduarda is a Ph.D. candidate in Neuroscience at Neurocampus Bordeaux and a part-time Research Assistant at UMC Amsterdam (VUmc). Passionate about Open Science, she develops open-source Python pipelines for songbird research. At VUmc, Eduarda promotes and implements Open Science practices within her team and coordinates a working group for departmental transition. She hosts a ReproducibiliTea journal club in Bordeaux, is a member of the Open Science Community Amsterdam board (OSCA), and recently became the Open Science Expert representing the Netherlands in the Knowledge Exchange network. [Workshop Organizer]"
 - id: chraibi
   name: Ikram Chraibi Kaadoud
@@ -24,6 +24,7 @@
   bio: "External Research Associate in Human-Centered Explainable AI, Ikram is interested in the world representation built by AI architectures, in the transparency of AI algorithms, and above all in interpretability and explainability. As passionate science facilitator, she is also one of the editors of the Blog Binaire attached to the news magazine \"LeMonde.fr\" that aim to make science accessible to all, especially in highly technical fields, so that everyone can be an actor in their own digital environment!\n 
   Her goal: to create a more inclusive and ethical computer science field."
 - id: cohen
+  pending: true
   name: Sarah Cohen-Boulakia
   pic: cohen.jpg
   link: https://sarah.cohen-boulakia.eu/
@@ -37,7 +38,7 @@
   bio: "Andrew Davison is a senior research scientist in the Paris-Saclay Institute of Neuroscience (CNRS/Université Paris-Saclay), where he leads the Neuroinformatics group. His main research interests are in large-scale, data-constrained, biologically-detailed modelling of neuronal networks, including development of tools and standards to facilitate collaborative modelling, systematic model validation, reproducible research, neurophysiology data sharing, and development of models of the early visual system in close collaboration with experimentalists."
 - id: ducq
   name: Yves Ducq
-  pic: null
+  pic: ducq.png
   link: https://www.linkedin.com/in/yves-ducq-1492b918/
   org: University of Bordeaux
   bio: ""
@@ -57,13 +58,13 @@
   name: Fjola Hyseni
   pic: hyseni.jpg
   link: https://www.linkedin.com/in/fjolahyseni/
-  org: Inria, IMN, LaBRI
+  org: Inria, IMN, LaBRI; ReproducibiliTea
   bio: "Fjola is a Medical Doctor and a Ph.D. candidate in Computational Neuroscience at the Institute of Neurodegenerative Diseases in Bordeaux. Her PhD work is focused on modeling temporal control of birdsong. Alongside her research work, she is passionate and devoted to  Open Science and hosts the ReproducibiliTea journal club in Bordeaux. [Workshop Organizer]"
 - id: inam
   name: Khadija Inam
   pic: inam.jpg
   link: https://twitter.com/Sci_BrainStorm
-  org: PHARM Research
+  org: PHARM Research; Sci_BrainStorm
   bio: "Khadija is a Clinical Research Associate at PHARM Research, a french CRO supporting clinical trials in France. She's also the editor of Sci_BrainStorm, the Neuroscience journal of the Université de Bordeaux. She aspires to play an active role to to promote scientific discovery behind therapeutic innovation."
 - id: leblois
   name: Arthur Leblois
@@ -79,9 +80,9 @@
   bio: "Florent is an associate Professor at the INSERM laboratory Cognition, Action and Sensorimotor Plasticity in Dijon. His research projects encompass behavioral psychology and cognitive neuroscience. The main goal is to understand the link between neural processes underlying motion (movement preparation, motor imagery, action language). Ongoing works include the development of non-pharmacological interventions, such as mental practice or non-invasive brain stimulation, for motor learning and rehabilitation of pathologies implying the sensorimotor system. Florent is currently part of the managing board of Peer Community In Neuroscience, a free recommendation process of scientific preprints based on peer reviews."
 - id: lecomte
   name: Simon Lecomte
-  pic: null
+  pic: lecomte.jpg
   link: https://www.bordeaux-neurocampus.fr/en/staff/simon-lecomte/
-  org: IINS, University of Bordeaux
+  org: IINS, University of Bordeaux; Sci_BrainStorm
   bio: ""
 - id: legrand
   name: Arnaud Legrand
@@ -91,7 +92,7 @@
   bio: "Arnaud Legrand is a senior CNRS Research Scientist at the LIG, Grenoble. His field of expertise encompasses scientific computing, performance evaluation, optimization, statistics and design of experiments. He is one of the authors of the \"Recherche reproductible : principes méthodologiques pour une science transparente\" MOOC."
 - id: nadjar
   name: Agnès Nadjar
-  pic: null
+  pic: nadjar.jpg
   link: https://www.bordeaux-neurocampus.fr/staff/agnes-nadjar/
   org: Neurocentre Magendie, Universitè of Bordeaux
   bio: ""
@@ -106,7 +107,7 @@
   name: Poulop
   pic: poulop.png
   link: https://educationducrayon.com/
-  org: Independent
+  org: L'éducation du crayon
   bio: ""
 - id: rougier
   name: Nicolas P. Rougier

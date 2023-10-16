@@ -3,12 +3,10 @@ T1:
   speakers: ducq
 T2:
   title: "Open Science: the Big Picture"
-  speakers: cohen
+  speakers: rougier
 T3:
   title: "Reproducibility in France"
-  speakers:
-    - cohen
-    - rougier
+  speakers: rougier
 T4:
   title: "Pre-registrations & Registered Reports"
   speakers: mcintosh
@@ -74,15 +72,18 @@ P1:
   speakers:
     - chraibi
     - forkel
+    - hyseni
+    - inam
     - leblois
+    - lecomte
     - whitmarsh
-  additional_speakers:
-    - id: brainstorm
-      name: Brainstorm
-      link: https://www.bordeaux-neurocampus.fr/en/brainstorm-the-new-neuroscience-student-journal-in-bordeaux/
-    - id: reproducibilitea
-      name: ReproducibiliTea Bordeaux
-      link: https://osf.io/9hkv2
+  # additional_speakers:
+  #   - id: brainstorm # actually inam and lecomte
+  #     name: Brainstorm
+  #     link: https://www.bordeaux-neurocampus.fr/en/brainstorm-the-new-neuroscience-student-journal-in-bordeaux/
+  #   - id: reproducibilitea # actually hyseni
+  #     name: ReproducibiliTea Bordeaux 
+  #     link: https://osf.io/9hkv2
 P2:
   title: "Panel 2: Stakeholders and Research Assessment"
   speakers:

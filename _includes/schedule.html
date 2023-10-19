@@ -193,12 +193,15 @@
             </tr>
             <tr style="height: 10px">
                 <th class="breaktime">12:15</th>
-                <td class="slot break"></td>
-                <td class="slot break">lunch</td>
-                <td class="slot break">lunch</td>
-                <td class="slot break">lunch</td>
+                <td class="slot break" rowspan="2"></td>
+                <td class="slot break" rowspan="2">lunch</td>
+                <td class="slot break" rowspan="2">lunch</td>
+                <td class="slot break" rowspan="2">lunch</td>
                 {% assign event = site.data.events.TC %}  <!-- Closing talk -->
                 <td class="slot opening_closing" dir="ltr">{% include schedule-slot.html %}</td>
+            </tr>
+            <tr style="height: 10px">
+                <th class="breaktime">12:30</th>
             </tr>
             <tr style="height: 10px">
                 <th class="time">13:30</th>
